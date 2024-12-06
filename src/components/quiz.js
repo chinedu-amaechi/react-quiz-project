@@ -21,7 +21,7 @@ export default function Quiz() {
   }, [level]);
 
   const handleAnswerOptionClick = (answer) => {
-    if (answer === questions[currentQuestion].correct) {
+    if (answer === questions[currentQuestion]?.correct) {
       setScore(score + 1);
     }
 
@@ -35,6 +35,10 @@ export default function Quiz() {
 
   if (!initialRenderComplete) {
     return <div>Loading...</div>; // Show a loading message until the initial render is complete
+  }
+
+  if (!questions[currentQuestion]) {
+    return <div>Loading...</div>; // Show a loading message if questions[currentQuestion] is undefined
   }
 
   return (

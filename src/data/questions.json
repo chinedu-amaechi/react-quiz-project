@@ -15,6 +15,7 @@
         "answers": ["Functions that let you use state and lifecycle features in functional components", "A way to fetch data", "Event listeners", "None of the above"],
         "correct": "Functions that let you use state and lifecycle features in functional components"
       }
+      
     ],
     "intermediate": [
       {
@@ -32,7 +33,7 @@
         "answers": ["To access the context API", "To manage side-effects", "To handle forms", "None of the above"],
         "correct": "To access the context API"
       }
-      // Add more intermediate questions...
+      
     ],
     "advanced": [
       {
@@ -50,6 +51,7 @@
         "answers": ["To memoize the result of a calculation between renders", "To manage state", "To handle side-effects", "None of the above"],
         "correct": "To memoize the result of a calculation between renders"
       }
-      // Add more advanced questions...
+      
     ]
+}
   
