@@ -5,7 +5,51 @@
       "answers": ["HyperText Markup Language", "Home Tool Markup Language", "Hyperlinks and Text Markup Language", "Hyperlinking Text Management Language"],
       "correct": "HyperText Markup Language"
     },
-    {}
+    {
+      "question": "Who is making the Web standards?",
+      "answers": ["Mozilla", "Microsoft", "The World Wide Web Consortium", "Google"],
+      "correct": "The World Wide Web Consortium"
+    },
+    {
+      "question": "Choose the correct HTML element for the largest heading:",
+      "answers": ["<h1>", "<h6>", "<heading>", "<head>"],
+      "correct": "<h1>"
+    },
+    {
+      "question": "What is the correct HTML element for inserting a line break?",
+      "answers": ["<br>", "<break>", "<lb>", "<line>"],
+      "correct": "<br>"
+    },
+    {
+      "question": "What is the correct HTML for adding a background color?",
+      "answers": ["<body style='background-color:yellow;'>", "<background>yellow</background>", "<body bg='yellow'>", "<body bgcol='yellow'>"],
+      "correct": "<body style='background-color:yellow;'>"
+    },
+    {
+      "question": "Choose the correct HTML element to define important text",
+      "answers": ["<important>", "<i>", "<strong>", "<b>"],
+      "correct": "<strong>"
+    },
+    {
+      "question": "Choose the correct HTML element to define emphasized text",
+      "answers": ["<em>", "<italic>", "<i>", "<emphasize>"],
+      "correct": "<em>"
+    },
+    {
+      "question": "What is the correct HTML for creating a hyperlink?",
+      "answers": ["<a href='http://www.w3schools.com'>W3Schools</a>", "<a url='http://www.w3schools.com'>W3Schools</a>", "<a>http://www.w3schools.com</a>", "<a name='http://www.w3schools.com'>W3Schools</a>"],
+      "correct": "<a href='http://www.w3schools.com'>W3Schools</a>"
+    },
+    {
+      "question": "Which character is used to indicate an end tag?",
+      "answers": ["/", "*", "<", "^"],
+      "correct": "/"
+    },
+    {
+      "question": "How can you open a link in a new tab/browser window?",
+      "answers": ["<a href='url' target='_blank'>", "<a href='url' new>", "<a href='url' target='new'>", "<a href='url' target='blank'>"],
+      "correct": "<a href='url' target='_blank'>"
+    }
     
   ],
   "JavaScript": [
@@ -14,7 +58,46 @@
       "answers": ["Netscape", "Microsoft", "Google", "Apple"],
       "correct": "Netscape"
     },
-    {}
+    {
+      "question": "What is the correct JavaScript syntax to change the content of the HTML element below? <p id='demo'>This is a demonstration.</p>",
+      "answers": ["document.getElementByName('p').innerHTML = 'Hello World!';", "document.getElement('p').innerHTML = 'Hello World!';", "document.getElementById('demo').innerHTML = 'Hello World!';", "#demo.innerHTML = 'Hello World!';"],
+      "correct": "document.getElementById('demo').innerHTML = 'Hello World!';"
+    },
+    {
+      "question": "Where is the correct place to insert a JavaScript?",
+      "answers": ["The <head> section", "The <body> section", "Both the <head> section and the <body> section are correct", "The <footer> section"],
+      "correct": "Both the <head> section and the <body> section are correct"
+    },
+    {
+      "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
+      "answers": ["<script src='xxx.js'>", "<script name='xxx.js'>", "<script href='xxx.js'>", "<script file='xxx.js'>"],
+      "correct": "<script src='xxx.js'>"
+    },
+    {
+      "question": "The external JavaScript file must contain the <script> tag.",
+      "answers": ["True", "False"],
+      "correct": "False"
+    },
+    {
+      "question": "How do you write 'Hello World' in an alert box?",
+      "answers": ["msgBox('Hello World');", "alertBox('Hello World');", "msg('Hello World');", "alert('Hello World');"],
+      "correct": "alert('Hello World');"
+    },
+    {
+      "question": "How do you create a function in JavaScript?",
+      "answers": ["function myFunction()", "function:myFunction()", "function = myFunction()", "function myFunction:"],
+      "correct": "function myFunction()"
+    },
+    {
+      "question": "How do you call a function named 'myFunction'?",
+      "answers": ["call myFunction()", "myFunction()", "call function myFunction()", "function myFunction()"],
+      "correct": "myFunction()"
+    },
+    {
+      "question": "What is the correct way to write a JavaScript array?",
+      "answers": ["var colors = ['red', 'green', 'blue']", "var colors = 'red', 'green', 'blue'", "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')", "var colors = (1:'red', 2:'green', 3:'blue')"],
+      "correct": "var colors = ['red', 'green', 'blue']"
+    }
     
   ],
   "React": [
