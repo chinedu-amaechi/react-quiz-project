@@ -4,347 +4,244 @@
       "question": "Which language is primarily used for Android app development?",
       "options": ["Java", "Swift", "Python", "Ruby"],
       "correct_answer": 0
-    },
-    {}
+    }
   ],
-
-
   "Angular": [
     {
       "question": "What is Angular primarily used for?",
       "options": ["Backend development", "Frontend development", "Database management", "Operating systems"],
       "correct_answer": 1
-    },
-    {}
+    }
   ],
-
-
   "ASP.NET": [
     {
       "question": "What does ASP.NET stand for?",
       "options": ["Active Server Pages", "Advanced Server Pages", "Active Server Pages .NET", "Advanced Server Pages .NET"],
       "correct_answer": 2
-    },
-    {}
+    }
   ],
-
-
   "AWS": [
     {
       "question": "What does AWS stand for?",
       "options": ["Amazon Web Services", "Azure Web Services", "Amazon Web Solutions", "Azure Web Solutions"],
       "correct_answer": 0
-    },
-    {}
+    }
   ],
-
-
   "C++": [
     {
       "question": "Which of the following is a valid C++ data type?",
       "options": ["int", "string", "bool", "All of the above"],
       "correct_answer": 3
-    },
-    {}
+    }
   ],
-
-
   "C#": [
     {
       "question": "Which company developed C#?",
       "options": ["Microsoft", "Google", "Apple", "IBM"],
       "correct_answer": 0
-    },
-    {}
+    }
   ],
-
-
   "Cryptography": [
     {
       "question": "What does RSA stand for in cryptography?",
       "options": ["Rivest–Shamir–Adleman", "Randomized Security Algorithm", "Reliable Secure Authentication", "Rotating Secure Algorithm"],
       "correct_answer": 0
-    },
-    {}
+    }
   ],
-
-
   "CSS": [
     {
       "question": "What does CSS stand for?",
       "options": ["Cascading Style Sheets", "Creative Style Sheets", "Computer Style Sheets", "Colorful Style Sheets"],
       "correct_answer": 0
-    },
-    {}
+    }
   ],
-
-
   "Django": [
     {
       "question": "Which language is Django written in?",
       "options": ["Java", "JavaScript", "Python", "PHP"],
       "correct_answer": 2
-    },
-    {}
+    }
   ],
-
-
   "Docker": [
     {
       "question": "What is Docker primarily used for?",
       "options": ["Virtualization", "Containerization", "Database management", "Frontend development"],
       "correct_answer": 1
-    },
-    {}
+    }
   ],
-
-
   "Ethical Hacking": [
     {
       "question": "What is another term for Ethical Hacking?",
       "options": ["White hat hacking", "Black hat hacking", "Blue hat hacking", "Green hat hacking"],
       "correct_answer": 0
-    },
-    {}
+    }
   ],
-
-
   "GitHub": [
     {
       "question": "What is GitHub used for?",
       "options": ["Web hosting", "Source code management", "Email services", "Cloud storage"],
       "correct_answer": 1
-    },
-    {}
+    }
   ],
-
-
   "Go": [
     {
       "question": "Which company created the Go programming language?",
       "options": ["Google", "Facebook", "Microsoft", "Apple"],
       "correct_answer": 0
-    },
-    {}
+    }
   ],
-
-
   "Google Cloud Platform": [
     {
       "question": "What does GCP stand for?",
       "options": ["Google Cloud Platform", "Global Cloud Platform", "Google Compute Platform", "Global Compute Platform"],
       "correct_answer": 0
-    },
-    {}
+    }
   ],
-
-
   "Hadoop": [
     {
       "question": "What is Hadoop used for?",
       "options": ["Big data processing", "Web development", "Mobile app development", "Cybersecurity"],
       "correct_answer": 0
-    },
-    {}
+    }
   ],
-
-
   "HTML": [
     {
       "question": "What does HTML stand for?",
       "options": ["Hypertext Markup Language", "Hyperlinks and Text Markup Language", "Home Tool Markup Language", "Hyperlinking Text Mark Language"],
       "correct_answer": 0
-    },
-    {}
+    }
   ],
-
-
   "Java": [
     {
       "question": "Which data type is used to create a variable that should store text in Java?",
       "options": ["string", "String", "Txt", "MyString"],
       "correct_answer": 1
-    },
-    {}
+    }
   ],
-
-
   "JavaScript": [
     {
       "question": "What is JavaScript?",
       "options": ["A programming language", "A database", "A browser", "A compiler"],
       "correct_answer": 0
-    },
-    {}
+    }
   ],
-
-
   "Kubernetes": [
     {
       "question": "What is Kubernetes used for?",
       "options": ["Container orchestration", "Web development", "Mobile app development", "Database management"],
       "correct_answer": 0
-    },
-    {}
+    }
   ],
-
-
   "Linux": [
     {
       "question": "Who is the creator of Linux?",
       "options": ["Linus Torvalds", "Bill Gates", "Steve Jobs", "Mark Zuckerberg"],
       "correct_answer": 0
-    },
-    {}
+    }
   ],
-
-
   "macOS": [
     {
       "question": "Which company developed macOS?",
       "options": ["Microsoft", "Google", "Apple", "IBM"],
       "correct_answer": 2
-    },
-    {}
+    }
   ],
-
-
   "Microsoft Azure": [
     {
       "question": "What is Azure primarily used for?",
       "options": ["Cloud computing", "Web development", "Mobile app development", "Database management"],
       "correct_answer": 0
-    },
-    {}
+    }
   ],
-
-
   "MongoDB": [
     {
       "question": "What type of database is MongoDB?",
       "options": ["Relational", "NoSQL", "Graph", "Time-series"],
       "correct_answer": 1
-    },
-    {}
+    }
   ],
-
-
   "Network Security": [
     {
       "question": "What does a firewall do?",
       "options": ["Protects networks from unauthorized access", "Hosts websites", "Manages databases", "Controls internet speed"],
       "correct_answer": 0
-    },
-    {}
+    }
   ],
-
-
   "Node.js": [
     {
       "question": "What is Node.js primarily used for?",
       "options": ["Backend development", "Frontend development", "Database management", "Operating systems"],
       "correct_answer": 0
-    },
-    {}
+    }
   ],
-
-
   "PostgreSQL": [
     {
       "question": "What type of database is PostgreSQL?",
       "options": ["Relational", "NoSQL", "Graph", "Time-series"],
       "correct_answer": 0
-    },
-    {}
+    }
   ],
-
-
   "Python": [
     {
       "question": "What is the correct syntax to output 'Hello World' in Python?",
       "options": ["print('Hello World')", "echo 'Hello World'", "p('Hello World')", "printf('Hello World')"],
       "correct_answer": 0
-    },
-    {}
+    }
   ],
-
-
   "React": [
     {
       "question": "What is a component in React?",
       "options": ["A function", "A class", "A part of the UI", "All of the above"],
       "correct_answer": 3
-    },
-    {}
+    }
   ],
-
-
   "Ruby on Rails": [
     {
       "question": "Which language is Ruby on Rails written in?",
       "options": ["Java", "JavaScript", "Ruby", "Python"],
       "correct_answer": 2
-    },
-    {}
+    }
   ],
-
-
   "SQL": [
     {
       "question": "What does SQL stand for?",
       "options": ["Structured Query Language", "Simple Query Language", "Syntax Query Language", "Standard Query Language"],
       "correct_answer": 0
-    },
-    {}
+    }
   ],
-
-
   "Tableau": [
     {
       "question": "What is Tableau primarily used for?",
       "options": ["Data visualization", "Web development", "Mobile app development", "Network security"],
       "correct_answer": 0
-    },
-    {}
+    }
   ],
-
-
   "Terraform": [
     {
       "question": "What is Terraform used for?",
       "options": ["Infrastructure as code", "Web development", "Mobile app development", "Database management"],
       "correct_answer": 0
-    },
-    {}
+    }
   ],
-
-
   "TensorFlow": [
     {
       "question": "What is TensorFlow primarily used for?",
       "options": ["Machine learning", "Web development", "Mobile app development", "Database management"],
       "correct_answer": 0
-    },
-    {}
+    }
   ],
-
-
   "Vue.js": [
     {
       "question": "What is Vue.js primarily used for?",
       "options": ["Frontend development", "Backend development", "Database management", "Operating systems"],
       "correct_answer": 0
-    },
-    {}
+    }
   ],
-
-
   "Windows": [
     {
       "question": "Which company developed Windows?",
       "options": ["Microsoft", "Apple", "Google", "IBM"],
       "correct_answer": 0
-    },
-    {}
+    }
   ]
 }

@@ -1,5 +1,28 @@
 .category-selection {
   text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.category-frame {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.category-frame h3 {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  background-color: #f9f9f9;
+  padding: 0 10px;
+  border-radius: 4px;
+  font-size: 1.2em;
+  margin: 0;
 }
 
 .categories {
@@ -15,7 +38,7 @@
 }
 
 .category-container {
-  background-color: #ffffff;
+  background-color: #f9f9f9;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -34,4 +57,10 @@
 
 .category p {
   margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .categories {
+    flex-direction: column;
+  }
 }
