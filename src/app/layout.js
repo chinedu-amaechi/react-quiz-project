@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
       <body>
         <nav className="bg-blue-600 p-4">
             <div className="container mx-auto">
-              <h1 className="text-white text-2xl">React Quiz App</h1>
+              <h1 className="text-white text-3xl">React Quiz App</h1>
             </div>
           </nav>
         {children}
