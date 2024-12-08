@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import "./category-selection.css";
 import { useUser } from "@/app/contexts/user-context";
 
@@ -61,27 +62,41 @@ const categories = {
 
 export default function CategorySelection({ onSelectCategory }) {
   const { user } = useUser();
+  const [visibleCategory, setVisibleCategory] = useState(null);
+
+  const handleCategoryClick = (categoryName) => {
+    setVisibleCategory(visibleCategory === categoryName ? null : categoryName);
+  };
 
   return (
     <div className="category-selection">
       <h2>Welcome, {user.name}! Select a Quiz Category:</h2>
       {Object.entries(categories).map(([categoryName, categoryItems], index) => (
-        <div key={index} className="category-frame">
-          <h3>{categoryName}</h3>
-          <div className="categories">
-            {categoryItems.map((category, index) => (
-              <div
-                key={index}
-                className="category"
-                onClick={() => onSelectCategory(category.name)}
-              >
-                <div className="category-container">
-                  <img src={category.image} alt={category.name} />
-                </div>
-                <p>{category.name}</p>
-              </div>
-            ))}
+        <div key={index} className="category-wrapper">
+          <div
+            className="category-heading"
+            onClick={() => handleCategoryClick(categoryName)}
+          >
+            {categoryName}
           </div>
+          {visibleCategory === categoryName && (
+            <div className="category-frame">
+              <div className="categories">
+                {categoryItems.map((category, index) => (
+                  <div
+                    key={index}
+                    className="category"
+                    onClick={() => onSelectCategory(category.name)}
+                  >
+                    <div className="category-container">
+                      <img src={category.image} alt={category.name} />
+                    </div>
+                    <p>{category.name}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       ))}
     </div>

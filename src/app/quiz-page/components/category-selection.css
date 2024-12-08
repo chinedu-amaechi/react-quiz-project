@@ -1,51 +1,59 @@
 .category-selection {
-  text-align: center;
   padding: 20px;
-  position: relative;
+  text-align: left; /* Align the main container to the left */
+  margin: 0 auto; /* Ensure the container itself isn't centered */
+  max-width: 1200px; /* Limit the maximum width for better layout control */
+}
+
+.category-wrapper {
+  margin-bottom: 20px;
+}
+
+.category-heading {
+  cursor: pointer;
+  font-size: 18px;
+  text-align: left; /* Align category headings to the left */
+  margin-bottom: 5px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.category-heading:hover {
+  transform: translateY(-2px);
 }
 
 .category-frame {
   background-color: #ffffff;
   border: 1px solid #ddd;
   border-radius: 8px;
-  margin-bottom: 40px;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   position: relative;
-}
-
-.category-frame h3 {
-  position: absolute;
-  top: -10px;
-  left: 20px;
-  background-color: #f9f9f9;
-  padding: 0 10px;
-  border-radius: 4px;
-  font-size: 1.2em;
-  margin: 0;
+  display: inline-block; /* Adjust to the content width */
 }
 
 .categories {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 20px;
+  justify-content: flex-start; /* Align categories to the left */
 }
 
 .category {
   cursor: pointer;
   text-align: center;
-}
-
-.category-container {
   background-color: #f9f9f9;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   transition: transform 0.2s;
+  border: 1px solid #ddd;
 }
 
-.category-container:hover {
+.category:hover {
   transform: translateY(-5px);
 }
 
