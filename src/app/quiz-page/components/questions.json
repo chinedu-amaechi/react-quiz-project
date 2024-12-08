@@ -1,31 +1,71 @@
 {
-  "Python": [
+  "Android": [
     {
-      "question": "What is the correct syntax to output 'Hello World' in Python?",
-      "options": ["print('Hello World')", "echo 'Hello World'", "p('Hello World')", "printf('Hello World')"],
+      "question": "Which language is primarily used for Android app development?",
+      "options": ["Java", "Swift", "Python", "Ruby"],
       "correct_answer": 0
     },
+    {}
+  ],
+
+
+  "Angular": [
     {
-      "question": "How do you insert COMMENTS in Python code?",
-      "options": ["#This is a comment", "//This is a comment", "/*This is a comment*/", "'This is a comment"],
+      "question": "What is Angular primarily used for?",
+      "options": ["Backend development", "Frontend development", "Database management", "Operating systems"],
+      "correct_answer": 1
+    },
+    {}
+  ],
+
+
+  "ASP.NET": [
+    {
+      "question": "What does ASP.NET stand for?",
+      "options": ["Active Server Pages", "Advanced Server Pages", "Active Server Pages .NET", "Advanced Server Pages .NET"],
+      "correct_answer": 2
+    },
+    {}
+  ],
+
+
+  "AWS": [
+    {
+      "question": "What does AWS stand for?",
+      "options": ["Amazon Web Services", "Azure Web Services", "Amazon Web Solutions", "Azure Web Solutions"],
       "correct_answer": 0
     },
+    {}
+  ],
+
+
+  "C++": [
     {
-      "question": "Which one is NOT a legal variable name?",
-      "options": ["my-var", "_myvar", "my_var", "myVar"],
-      "correct_answer": 0
-    },
-    {
-      "question": "How do you create a variable with the numeric value 5?",
-      "options": ["x = 5", "x = int(5)", "x = '5'", "Both A and B"],
+      "question": "Which of the following is a valid C++ data type?",
+      "options": ["int", "string", "bool", "All of the above"],
       "correct_answer": 3
     },
+    {}
+  ],
+
+
+  "C#": [
     {
-      "question": "What is the correct file extension for Python files?",
-      "options": [".pyth", ".pyt", ".pt", ".py"],
-      "correct_answer": 3
-    }
-    
+      "question": "Which company developed C#?",
+      "options": ["Microsoft", "Google", "Apple", "IBM"],
+      "correct_answer": 0
+    },
+    {}
+  ],
+
+
+  "Cryptography": [
+    {
+      "question": "What does RSA stand for in cryptography?",
+      "options": ["Rivest–Shamir–Adleman", "Randomized Security Algorithm", "Reliable Secure Authentication", "Rotating Secure Algorithm"],
+      "correct_answer": 0
+    },
+    {}
   ],
 
 
@@ -35,143 +75,77 @@
       "options": ["Cascading Style Sheets", "Creative Style Sheets", "Computer Style Sheets", "Colorful Style Sheets"],
       "correct_answer": 0
     },
-    {
-      "question": "What is the correct CSS syntax for making all the <p> elements bold?",
-      "options": ["p {font-weight:bold;}", "p {text-size:bold;}", "p {font: bold;}", "p {style: bold;}"],
-      "correct_answer": 0
-    },
-    {
-      "question": "How do you display hyperlinks without an underline?",
-      "options": ["a {text-decoration:none;}", "a {text-decoration:no-underline;}", "a {decoration:no-underline;}", "a {underline:none;}"],
-      "correct_answer": 0
-    },
-    {
-      "question": "How do you make each word in a text start with a capital letter?",
-      "options": ["text-transform:capitalize", "text-style:capitalize", "text:capitalize", "text:uppercase"],
-      "correct_answer": 0
-    },
-    {
-      "question": "Which CSS property is used to change the text color of an element?",
-      "options": ["text-color", "color", "fgcolor", "font-color"],
-      "correct_answer": 1
-    }
+    {}
   ],
 
 
-  "Java": [
+  "Django": [
     {
-      "question": "Which data type is used to create a variable that should store text in Java?",
-      "options": ["string", "String", "Txt", "MyString"],
+      "question": "Which language is Django written in?",
+      "options": ["Java", "JavaScript", "Python", "PHP"],
+      "correct_answer": 2
+    },
+    {}
+  ],
+
+
+  "Docker": [
+    {
+      "question": "What is Docker primarily used for?",
+      "options": ["Virtualization", "Containerization", "Database management", "Frontend development"],
       "correct_answer": 1
     },
-    {
-      "question": "How do you create a variable with the floating number 2.8?",
-      "options": ["float x = 2.8f;", "x = 2.8;", "float x = 2.8;", "double x = 2.8d;"],
-      "correct_answer": 0
-    },
-    {
-      "question": "Which method can be used to find the length of a string?",
-      "options": ["length()", "getLength()", "len()", "getSize()"],
-      "correct_answer": 0
-    },
-    {
-      "question": "Which operator is used to add together two values?",
-      "options": ["+", "&", "*", "||"],
-      "correct_answer": 0
-    },
-    {
-      "question": "Which of the following is a reserved keyword in Java?",
-      "options": ["interface", "strictfp", "main", "goto"],
-      "correct_answer": 0
-    }
+    {}
   ],
 
 
-  "React": [
+  "Ethical Hacking": [
     {
-      "question": "What is a component in React?",
-      "options": ["A function", "A class", "A part of the UI", "All of the above"],
-      "correct_answer": 3
-    },
-    {
-      "question": "What is the correct way to render a component in React?",
-      "options": ["<Component />", "renderComponent()", "render(<Component />)", "ReactDOM.render(<Component />, document.getElementById('root'))"],
-      "correct_answer": 3
-    },
-    {
-      "question": "What is the correct way to pass props to a component in React?",
-      "options": ["<Component props={value} />", "<Component value={props} />", "<Component value='props' />", "<Component value={props} />"],
-      "correct_answer": 3
-    },
-    {
-      "question": "What is the correct way to change the state of a component in React?",
-      "options": ["this.setState({key: value})", "this.state = {key: value}", "this.changeState({key: value})", "this.changeState = {key: value}"],
+      "question": "What is another term for Ethical Hacking?",
+      "options": ["White hat hacking", "Black hat hacking", "Blue hat hacking", "Green hat hacking"],
       "correct_answer": 0
     },
-    {
-      "question": "What is the correct way to import a component in React?",
-      "options": ["import Component from './Component'", "import { Component } from 'react'", "import Component from 'react'", "import { Component } from './Component'"],
-      "correct_answer": 0
-    }
+    {}
   ],
 
 
-  "C++": [
+  "GitHub": [
     {
-      "question": "Which of the following is the correct way to declare a variable in C++?",
-      "options": ["int x;", "x = int;", "variable x;", "declare x;"],
-      "correct_answer": 0
-    },
-    {
-      "question": "Which of the following is the correct way to initialize a variable in C++?",
-      "options": ["int x = 5;", "x = 5;", "int x(5);", "x(5);"],
-      "correct_answer": 0
-    },
-    {
-      "question": "Which of the following is the correct way to add two numbers in C++?",
-      "options": ["x + y", "add(x, y)", "x.add(y)", "x.add(y);"],
-      "correct_answer": 0
-    },
-    {
-      "question": "Which of the following is the correct way to create a function in C++?",
-      "options": ["void myFunction() {}", "function myFunction() {}", "void function myFunction() {}", "function void myFunction() {}"],
-      "correct_answer": 0
-    },
-    {
-      "question": "Which of the following is the correct way to include the iostream library in C++?",
-      "options": ["#include <iostream>", "#include 'iostream'", "#include iostream", "#include 'iostream.h'"],
-      "correct_answer": 0
-    }
-    
-  ],
-
-
-  "JavaScript": [
-    {
-      "question": "What is JavaScript?",
-      "options": ["A programming language", "A database", "A backend framework", "A CSS framework"],
-      "correct_answer": 0
-    },
-    {
-      "question": "What is the correct way to write an IF statement in JavaScript?",
-      "options": ["if (i == 5)", "if i == 5 then", "if i = 5", "if i = 5 then"],
-      "correct_answer": 0
-    },
-    {
-      "question": "How do you write 'Hello World' in an alert box?",
-      "options": ["msg('Hello World')", "alertBox('Hello World')", "msgBox('Hello World')", "alert('Hello World')"],
-      "correct_answer": 3
-    },
-    {
-      "question": "What is the correct way to add an external JavaScript file to your HTML?",
-      "options": ["<script src='script.js'>", "<script href='script.js'>", "<script name='script.js'>", "<script file='script.js'>"],
-      "correct_answer": 0
-    },
-    {
-      "question": "How do you create a function in JavaScript?",
-      "options": ["function:myFunction()", "function myFunction()", "function = myFunction()", "function myFunction:"],
+      "question": "What is GitHub used for?",
+      "options": ["Web hosting", "Source code management", "Email services", "Cloud storage"],
       "correct_answer": 1
-    }
+    },
+    {}
+  ],
+
+
+  "Go": [
+    {
+      "question": "Which company created the Go programming language?",
+      "options": ["Google", "Facebook", "Microsoft", "Apple"],
+      "correct_answer": 0
+    },
+    {}
+  ],
+
+
+  "Google Cloud Platform": [
+    {
+      "question": "What does GCP stand for?",
+      "options": ["Google Cloud Platform", "Global Cloud Platform", "Google Compute Platform", "Global Compute Platform"],
+      "correct_answer": 0
+    },
+    {}
+  ],
+
+
+  "Hadoop": [
+    {
+      "question": "What is Hadoop used for?",
+      "options": ["Big data processing", "Web development", "Mobile app development", "Cybersecurity"],
+      "correct_answer": 0
+    },
+    {}
   ],
 
 
@@ -181,25 +155,196 @@
       "options": ["Hypertext Markup Language", "Hyperlinks and Text Markup Language", "Home Tool Markup Language", "Hyperlinking Text Mark Language"],
       "correct_answer": 0
     },
+    {}
+  ],
+
+
+  "Java": [
     {
-      "question": "What is the correct HTML element for inserting a line break?",
-      "options": ["<break>", "<lb>", "<br>", "<line>"],
+      "question": "Which data type is used to create a variable that should store text in Java?",
+      "options": ["string", "String", "Txt", "MyString"],
+      "correct_answer": 1
+    },
+    {}
+  ],
+
+
+  "JavaScript": [
+    {
+      "question": "What is JavaScript?",
+      "options": ["A programming language", "A database", "A browser", "A compiler"],
+      "correct_answer": 0
+    },
+    {}
+  ],
+
+
+  "Kubernetes": [
+    {
+      "question": "What is Kubernetes used for?",
+      "options": ["Container orchestration", "Web development", "Mobile app development", "Database management"],
+      "correct_answer": 0
+    },
+    {}
+  ],
+
+
+  "Linux": [
+    {
+      "question": "Who is the creator of Linux?",
+      "options": ["Linus Torvalds", "Bill Gates", "Steve Jobs", "Mark Zuckerberg"],
+      "correct_answer": 0
+    },
+    {}
+  ],
+
+
+  "macOS": [
+    {
+      "question": "Which company developed macOS?",
+      "options": ["Microsoft", "Google", "Apple", "IBM"],
       "correct_answer": 2
     },
+    {}
+  ],
+
+
+  "Microsoft Azure": [
     {
-      "question": "What is the correct HTML for adding a background color?",
-      "options": ["<body style='background-color:yellow;'>", "<background>yellow</background>", "<bg>yellow</bg>", "<body bg='yellow'>"],
+      "question": "What is Azure primarily used for?",
+      "options": ["Cloud computing", "Web development", "Mobile app development", "Database management"],
       "correct_answer": 0
     },
+    {}
+  ],
+
+
+  "MongoDB": [
     {
-      "question": "What is the correct HTML for creating a hyperlink?",
-      "options": ["<a href='http://www.w3schools.com'>W3Schools</a>", "<a>http://www.w3schools.com</a>", "<a name='http://www.w3schools.com'>W3Schools.com</a>", "<a url='http://www.w3schools.com'>W3Schools.com</a>"],
+      "question": "What type of database is MongoDB?",
+      "options": ["Relational", "NoSQL", "Graph", "Time-series"],
+      "correct_answer": 1
+    },
+    {}
+  ],
+
+
+  "Network Security": [
+    {
+      "question": "What does a firewall do?",
+      "options": ["Protects networks from unauthorized access", "Hosts websites", "Manages databases", "Controls internet speed"],
       "correct_answer": 0
     },
+    {}
+  ],
+
+
+  "Node.js": [
     {
-      "question": "What is the correct HTML for inserting an image?",
-      "options": ["<img src='image.jpg'>", "<image src='image.jpg'>", "<img href='image.jpg'>", "<image href='image.jpg'>"],
+      "question": "What is Node.js primarily used for?",
+      "options": ["Backend development", "Frontend development", "Database management", "Operating systems"],
       "correct_answer": 0
-    }
+    },
+    {}
+  ],
+
+
+  "PostgreSQL": [
+    {
+      "question": "What type of database is PostgreSQL?",
+      "options": ["Relational", "NoSQL", "Graph", "Time-series"],
+      "correct_answer": 0
+    },
+    {}
+  ],
+
+
+  "Python": [
+    {
+      "question": "What is the correct syntax to output 'Hello World' in Python?",
+      "options": ["print('Hello World')", "echo 'Hello World'", "p('Hello World')", "printf('Hello World')"],
+      "correct_answer": 0
+    },
+    {}
+  ],
+
+
+  "React": [
+    {
+      "question": "What is a component in React?",
+      "options": ["A function", "A class", "A part of the UI", "All of the above"],
+      "correct_answer": 3
+    },
+    {}
+  ],
+
+
+  "Ruby on Rails": [
+    {
+      "question": "Which language is Ruby on Rails written in?",
+      "options": ["Java", "JavaScript", "Ruby", "Python"],
+      "correct_answer": 2
+    },
+    {}
+  ],
+
+
+  "SQL": [
+    {
+      "question": "What does SQL stand for?",
+      "options": ["Structured Query Language", "Simple Query Language", "Syntax Query Language", "Standard Query Language"],
+      "correct_answer": 0
+    },
+    {}
+  ],
+
+
+  "Tableau": [
+    {
+      "question": "What is Tableau primarily used for?",
+      "options": ["Data visualization", "Web development", "Mobile app development", "Network security"],
+      "correct_answer": 0
+    },
+    {}
+  ],
+
+
+  "Terraform": [
+    {
+      "question": "What is Terraform used for?",
+      "options": ["Infrastructure as code", "Web development", "Mobile app development", "Database management"],
+      "correct_answer": 0
+    },
+    {}
+  ],
+
+
+  "TensorFlow": [
+    {
+      "question": "What is TensorFlow primarily used for?",
+      "options": ["Machine learning", "Web development", "Mobile app development", "Database management"],
+      "correct_answer": 0
+    },
+    {}
+  ],
+
+
+  "Vue.js": [
+    {
+      "question": "What is Vue.js primarily used for?",
+      "options": ["Frontend development", "Backend development", "Database management", "Operating systems"],
+      "correct_answer": 0
+    },
+    {}
+  ],
+
+
+  "Windows": [
+    {
+      "question": "Which company developed Windows?",
+      "options": ["Microsoft", "Apple", "Google", "IBM"],
+      "correct_answer": 0
+    },
+    {}
   ]
 }
