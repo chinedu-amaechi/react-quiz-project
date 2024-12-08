@@ -1,0 +1,79 @@
+.nav-bar {
+  width: 100%;
+  height: 70px;
+  background-color: #2e2e2e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.logo {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  font-size: 1.7rem;
+  letter-spacing: 1.2px;
+  color: #f4f4f9;
+}
+
+.nav-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 70px;
+  left: -100%;
+  width: 50%;
+  background-color: #2e2e2e;
+  border-top: 2px solid #2196f3;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-options.show {
+  left: 0;
+}
+
+.nav-options li {
+  list-style: none;
+}
+
+.nav-options li a {
+  text-decoration: none;
+  font-weight: 450;
+  font-size: 0.85rem;
+  color: #f4f4f9;
+  padding: 3px 5px;
+  border-radius: 7px;
+  transition: all 0.3s ease-in-out;
+}
+
+.action-container {
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .nav-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    position: static;
+    width: auto;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-options li a:hover {
+    background-color: #2196f3;
+  }
+
+  .action-container {
+    display: none;
+  }
+}

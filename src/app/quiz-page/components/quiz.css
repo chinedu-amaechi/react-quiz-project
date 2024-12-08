@@ -1,0 +1,34 @@
+.quiz {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border: 2px solid #2e2e2e;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.points-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.points-container label {
+  font-size: 1.2rem;
+  font-weight: 550;
+}
+
+.points-container .highest-points {
+  color: #2196f3;
+}
+
+.quiz-actions {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

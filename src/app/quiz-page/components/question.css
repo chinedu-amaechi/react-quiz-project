@@ -1,0 +1,38 @@
+.question {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.option {
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #2e2e2e;
+  color: #f4f4f9;
+  font-size: 1.1rem;
+  border-radius: 25px;
+}
+
+.correct {
+  background-color: #4caf50;
+}
+
+.wrong {
+  background-color: #ff5722;
+}
+
+.answer-summary span {
+  color: #4caf50;
+  font-weight: 550;
+}

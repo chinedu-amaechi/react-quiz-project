@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f4f4f9;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #2e2e2e;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #4caf50;
+  color: #f4f4f9;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 1.3px;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #2196f3;
+}
