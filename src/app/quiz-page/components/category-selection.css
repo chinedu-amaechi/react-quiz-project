@@ -1,76 +1,124 @@
+/* Base styling for the container */
 .category-selection {
-  padding: 20px;
-  text-align: left; /* Align the main container to the left */
-  margin: 0 auto; /* Ensure the container itself isn't centered */
-  max-width: 1200px; /* Limit the maximum width for better layout control */
+  padding: 30px 20px;
+  text-align: left;
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: #f4f7fc;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .category-wrapper {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .category-heading {
   cursor: pointer;
-  font-size: 18px;
-  text-align: left; /* Align category headings to the left */
-  margin-bottom: 5px;
-  padding: 10px;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 15px;
+  padding: 12px;
   background-color: #ffffff;
   border: 1px solid #ddd;
-  border-radius: 8px;
-  transition: transform 0.2s;
+  border-radius: 10px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  font-weight: 600;
+  color: #333;
 }
 
 .category-heading:hover {
-  transform: translateY(-2px);
+  transform: translateY(-5px);
+  background-color: #e0f7fa;
 }
 
 .category-frame {
   background-color: #ffffff;
   border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   position: relative;
-  display: inline-block; /* Adjust to the content width */
-  max-width: 600px;
-  width: 100%;
+  display: block;
 }
 
 .categories {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  justify-content: flex-start; /* Align categories to the left */
+  gap: 15px;
+  justify-content: flex-start;
 }
 
 .category {
   cursor: pointer;
   text-align: center;
   background-color: #f9f9f9;
-  border-radius: 8px;
+  border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  transition: transform 0.2s;
+  padding: 12px;  /* Reduced padding */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   border: 1px solid #ddd;
+  width: 140px; /* Reduced the card width further */
+  height: 160px; /* Reduced the card height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .category:hover {
   transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 .category img {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
+  width: 50px; /* Reduced the image size */
+  height: 50px; /* Reduced the image size */
+  object-fit: contain; /* Ensures the entire image is visible */
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
 
 .category p {
-  margin-top: 10px;
+  font-size: 0.85rem; /* Reduced font size */
+  font-weight: 500;
+  color: #333;
+  margin-top: 5px;
 }
 
+/* Mobile and tablet responsiveness */
 @media (max-width: 768px) {
   .categories {
     flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .category-wrapper {
+    margin-bottom: 15px;
+  }
+
+  .category-heading {
+    font-size: 18px;
+  }
+
+  .category-frame {
+    padding: 10px;
+  }
+
+  .category {
+    width: 90%; /* Adjust width for small screens */
+    height: auto;
+    max-width: 250px;  /* Further reduced card size */
+  }
+
+  .category img {
+    width: 40px; /* Smaller image for small screens */
+    height: 40px;
+  }
+
+  .category p {
+    font-size: 0.8rem; /* Adjusted font size for smaller screens */
   }
 }
