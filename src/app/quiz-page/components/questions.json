@@ -7690,7 +7690,241 @@
       "options": ["Data visualization", "Web development", "Mobile app development", "Network security"],
       "correct_answer": 0
     },
-    
+    {
+      "question": "What is Tableau?",
+      "options": ["Data visualization tool", "Database management system", "Programming language", "Data storage tool"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which file extension does Tableau Desktop use to save workbooks?",
+      "options": [".twb", ".twbx", ".twbx", ".twb"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is a Tableau data connection type?",
+      "options": ["Live connection", "Extract", "Both A and B", "None of the above"],
+      "correct_answer": 2
+    },
+    {
+      "question": "What is Tableau's primary function?",
+      "options": ["Data analysis", "Data visualization", "Data storage", "Data entry"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which of the following Tableau products is used for server-side sharing of visualizations?",
+      "options": ["Tableau Server", "Tableau Desktop", "Tableau Prep", "Tableau Public"],
+      "correct_answer": 0
+    },
+    {
+      "question": "In Tableau, which type of filter is used to limit the data displayed in a worksheet?",
+      "options": ["Context filter", "Extract filter", "Data source filter", "All of the above"],
+      "correct_answer": 3
+    },
+    {
+      "question": "What is the function of Tableau Prep?",
+      "options": ["Data visualization", "Data cleaning and preparation", "Data entry", "Data storage"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What does the 'Dimensions' shelf in Tableau represent?",
+      "options": ["Quantitative data", "Categorical data", "Aggregated data", "None of the above"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What type of chart would you use in Tableau to show relationships between multiple variables?",
+      "options": ["Scatter plot", "Pie chart", "Bar chart", "Line chart"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the use of the 'Measure Names' field in Tableau?",
+      "options": ["To define the color of a measure", "To identify measures in the data", "To create calculated fields", "None of the above"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which of the following is a valid Tableau calculated field function?",
+      "options": ["IF", "SUM", "AVG", "All of the above"],
+      "correct_answer": 3
+    },
+    {
+      "question": "What does the Tableau term 'Show Me' do?",
+      "options": ["Provides different chart types based on the data", "Formats the worksheet", "Filters the data", "Creates calculated fields"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a Tableau dashboard?",
+      "options": ["A collection of multiple visualizations", "A data storage tool", "A data filter", "A single worksheet view"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does Tableau's 'Data Interpreter' feature do?",
+      "options": ["Cleans and formats data", "Removes duplicate data", "Extracts data", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which type of chart in Tableau is best for showing trends over time?",
+      "options": ["Line chart", "Pie chart", "Bar chart", "Scatter plot"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is the default aggregation for measures in Tableau?",
+      "options": ["Sum", "Average", "Count", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How can you combine multiple data sources in Tableau?",
+      "options": ["Using a join", "Using a union", "Using blending", "All of the above"],
+      "correct_answer": 3
+    },
+    {
+      "question": "What is the purpose of a Tableau Extract?",
+      "options": ["To store data locally for faster performance", "To clean data", "To create a backup of the data", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "In Tableau, what is the purpose of using 'Calculated Fields'?",
+      "options": ["To create custom calculations", "To filter data", "To combine multiple fields", "To join data sources"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which Tableau feature allows you to create visualizations with multiple views of the data?",
+      "options": ["Dashboard", "Story", "Worksheet", "Data source"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a 'Table Calculation' in Tableau?",
+      "options": ["A predefined calculation", "A calculation performed on the data in the view", "A type of data source", "None of the above"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the function of Tableau's 'Story' feature?",
+      "options": ["To combine multiple dashboards and visualizations into a sequence", "To show data trends", "To create filters", "To calculate fields"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is true about Tableau Public?",
+      "options": ["It is free and allows users to share visualizations publicly", "It is a paid version for professionals", "It is only available for Windows", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "In Tableau, what is a 'Context Filter' used for?",
+      "options": ["To apply filters in a hierarchical order", "To aggregate data", "To create calculated fields", "To join tables"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following file types can be used to save Tableau workbooks for sharing?",
+      "options": [".twb", ".twbx", ".twbx", ".twb"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the primary purpose of using Tableau Server?",
+      "options": ["To publish, share, and collaborate on visualizations", "To clean and transform data", "To create workbooks", "To store raw data"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a Tableau 'Measure'?",
+      "options": ["A quantitative field that can be aggregated", "A categorical field", "A calculated field", "A filter"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which function in Tableau is used to find the count of distinct values?",
+      "options": ["COUNTD", "COUNT", "SUM", "AVG"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is a valid join type in Tableau?",
+      "options": ["Inner join", "Left join", "Right join", "All of the above"],
+      "correct_answer": 3
+    },
+    {
+      "question": "What is the purpose of Tableau's 'Hierarchy' feature?",
+      "options": ["To create a drill-down structure", "To categorize data", "To aggregate data", "To filter data"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does Tableau's 'Trend Line' feature do?",
+      "options": ["Shows the pattern of data trends over time", "Aggregates data", "Displays averages", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a Tableau 'Filter' used for?",
+      "options": ["To limit the data displayed in a view", "To aggregate data", "To join data", "To create calculated fields"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is a type of filter in Tableau?",
+      "options": ["Extract filter", "Data source filter", "Context filter", "All of the above"],
+      "correct_answer": 3
+    },
+    {
+      "question": "What is the 'Measure Values' field in Tableau?",
+      "options": ["A field that shows the aggregated values of all measures", "A field for dimensions", "A field for categorizing data", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which type of chart would you use to compare individual items across categories?",
+      "options": ["Bar chart", "Line chart", "Pie chart", "Scatter plot"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which Tableau product allows users to create dashboards and visualizations?",
+      "options": ["Tableau Desktop", "Tableau Server", "Tableau Public", "Tableau Prep"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is not a valid Tableau data source?",
+      "options": ["CSV", "Excel", "SQL", "Notepad"],
+      "correct_answer": 3
+    },
+    {
+      "question": "Which Tableau function allows you to convert a string into a date?",
+      "options": ["DATE()", "DATEPARSE()", "STRING()", "CONVERT()"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the function of Tableau's 'Dual Axis' feature?",
+      "options": ["To combine two measures into a single axis", "To combine dimensions", "To join multiple data sources", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of Tableau's 'Extract Filter'?",
+      "options": ["To reduce the size of data extracted", "To combine multiple data sources", "To create calculated fields", "To format data"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is the correct formula for calculating percentage of total in Tableau?",
+      "options": ["SUM([Field])/SUM(TOTAL([Field]))", "SUM([Field])*100/SUM([Field])", "COUNT([Field])/TOTAL(COUNT([Field]))", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "In Tableau, what is a 'Calculated Field' used for?",
+      "options": ["Creating custom formulas", "Aggregating data", "Joining data sources", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following chart types is best for showing part-to-whole relationships?",
+      "options": ["Pie chart", "Bar chart", "Line chart", "Scatter plot"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is Tableau's 'Data Blending' feature used for?",
+      "options": ["Combining data from multiple sources", "Aggregating data", "Cleaning data", "Joining tables"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is true about Tableau Server?",
+      "options": ["It allows users to collaborate on visualizations", "It is used to create data visualizations", "It is a free version of Tableau", "It does not support sharing visualizations"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the Tableau 'Connection' feature allow you to do?",
+      "options": ["Connect to different data sources", "Create a calculated field", "Combine data from multiple tables", "Apply a filter"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which function is used to combine the data from two different sources in Tableau?",
+      "options": ["Data blending", "Data joining", "Data aggregation", "Data transformation"],
+      "correct_answer": 0
+    }    
   ],
 
 
@@ -7699,7 +7933,252 @@
       "question": "What is Terraform used for?",
       "options": ["Infrastructure as code", "Web development", "Mobile app development", "Database management"],
       "correct_answer": 0
-    }
+    },
+    {
+      "question": "What is Terraform used for?",
+      "options": ["Infrastructure as Code", "Configuration management", "Continuous Integration", "Cloud storage management"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Who developed Terraform?",
+      "options": ["HashiCorp", "Microsoft", "Google", "Amazon"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which language does Terraform use for configuration files?",
+      "options": ["HCL (HashiCorp Configuration Language)", "YAML", "JSON", "XML"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the file extension for Terraform configuration files?",
+      "options": [".tf", ".hcl", ".tfjson", ".yaml"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is a core component of Terraform?",
+      "options": ["Provider", "Modules", "State", "All of the above"],
+      "correct_answer": 3
+    },
+    {
+      "question": "Which command initializes a working directory containing Terraform configuration files?",
+      "options": ["terraform apply", "terraform plan", "terraform init", "terraform validate"],
+      "correct_answer": 2
+    },
+    {
+      "question": "What is a Terraform provider?",
+      "options": ["A plugin that allows interaction with cloud services", "A set of Terraform configuration files", "A type of resource in Terraform", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which Terraform command is used to show the execution plan?",
+      "options": ["terraform apply", "terraform plan", "terraform validate", "terraform output"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What does the 'terraform apply' command do?",
+      "options": ["Generates an execution plan", "Applies the changes to the infrastructure", "Validates the configuration", "Initializes the working directory"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is a Terraform 'resource'?",
+      "options": ["A set of infrastructure components", "A specific cloud service", "A type of variable", "A command in Terraform"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following does not require a Terraform provider?",
+      "options": ["Google Cloud", "AWS", "Kubernetes", "Terraform CLI"],
+      "correct_answer": 3
+    },
+    {
+      "question": "What is Terraform 'state'?",
+      "options": ["The infrastructure configuration", "A local file storing the current infrastructure status", "A Terraform command", "A provider plugin"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which file type does Terraform use to store state information by default?",
+      "options": [".tfstate", ".tfvars", ".tfjson", ".tfmeta"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does 'terraform plan' do?",
+      "options": ["Validates the configuration", "Generates an execution plan", "Applies the changes", "Initializes the working directory"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which of the following commands is used to check if a Terraform configuration is valid?",
+      "options": ["terraform apply", "terraform plan", "terraform validate", "terraform init"],
+      "correct_answer": 2
+    },
+    {
+      "question": "How can Terraform store the state file securely?",
+      "options": ["By using remote backends", "By storing it locally", "By using encrypted files", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a Terraform module?",
+      "options": ["A reusable configuration", "A provider plugin", "A state file", "A set of variables"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which command is used to remove a resource from the state file in Terraform?",
+      "options": ["terraform destroy", "terraform plan", "terraform state rm", "terraform apply"],
+      "correct_answer": 2
+    },
+    {
+      "question": "What does the 'terraform output' command do?",
+      "options": ["Displays the outputs of a Terraform configuration", "Validates the configuration", "Shows an execution plan", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the main benefit of using Terraform over traditional cloud management tools?",
+      "options": ["Infrastructure as Code", "Graphical User Interface", "Manual provisioning", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is a valid Terraform provider?",
+      "options": ["aws", "google", "azure", "All of the above"],
+      "correct_answer": 3
+    },
+    {
+      "question": "Which is the correct syntax to define a resource in Terraform?",
+      "options": ["resource 'aws_instance' 'example' { }", "aws_instance 'resource' { }", "'aws_instance' 'example' = { }", "resource aws_instance 'example' { }"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which command is used to destroy infrastructure created by Terraform?",
+      "options": ["terraform destroy", "terraform apply", "terraform init", "terraform plan"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a 'remote backend' in Terraform?",
+      "options": ["A way to store Terraform state remotely", "A provider plugin", "A type of resource", "A type of configuration file"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of 'terraform validate'?",
+      "options": ["To check if the Terraform configuration is valid", "To generate the execution plan", "To apply changes", "To destroy infrastructure"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which command is used to initialize a working directory for Terraform?",
+      "options": ["terraform init", "terraform plan", "terraform validate", "terraform apply"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is a valid Terraform variable declaration?",
+      "options": ["variable 'instance_type' { type = string }", "variable instance_type { string = type }", "variable instance_type { type = 'string' }", "variable instance_type = 'string'"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the default state file format used by Terraform?",
+      "options": ["JSON", "YAML", "HCL", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is 'terraform fmt' used for?",
+      "options": ["To format Terraform configuration files", "To validate Terraform configurations", "To apply changes", "To destroy resources"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a 'data source' in Terraform?",
+      "options": ["A component used to query information from a provider", "A configuration file", "A type of resource", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a Terraform 'resource'?",
+      "options": ["A defined piece of infrastructure", "A command in Terraform", "A configuration file", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which command is used to update the Terraform state file?",
+      "options": ["terraform state update", "terraform refresh", "terraform apply", "terraform init"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What does the 'terraform destroy' command do?",
+      "options": ["Destroys all resources defined in the configuration", "Deletes the state file", "Deletes configuration files", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which Terraform feature allows you to reuse configurations?",
+      "options": ["Modules", "Providers", "Resources", "State files"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is 'terraform taint' used for?",
+      "options": ["Marking a resource for recreation", "Destroying resources", "Validating a resource", "Applying changes to a resource"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does 'terraform state list' command do?",
+      "options": ["Displays resources in the state file", "Shows an execution plan", "Applies changes to resources", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which provider is used to create resources in AWS using Terraform?",
+      "options": ["aws", "google", "azure", "kubernetes"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the syntax for defining a provider in Terraform?",
+      "options": ["provider 'aws' { region = 'us-west-2' }", "aws provider { region = 'us-west-2' }", "provider 'aws' { 'region' = 'us-west-2' }", "'aws' provider { region = 'us-west-2' }"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a Terraform backend?",
+      "options": ["A system for managing and storing state remotely", "A resource used in configuration", "A provider plugin", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the 'terraform init' command do?",
+      "options": ["Initializes the working directory and installs provider plugins", "Displays the execution plan", "Validates the configuration", "Destroys infrastructure"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a Terraform workspace?",
+      "options": ["A directory for storing state files", "An isolated environment for managing resources", "A configuration file", "A type of provider"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which command is used to upgrade Terraform providers?",
+      "options": ["terraform upgrade", "terraform init -upgrade", "terraform apply", "terraform update"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which of the following Terraform commands is used to import existing infrastructure into Terraform?",
+      "options": ["terraform import", "terraform apply", "terraform refresh", "terraform plan"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the default output format for Terraform commands?",
+      "options": ["Text", "JSON", "YAML", "XML"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the 'terraform refresh' command?",
+      "options": ["To update the Terraform state file", "To refresh the working directory", "To apply changes to resources", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a Terraform 'variable'?",
+      "options": ["A parameter that can be passed into configurations", "A type of resource", "A state file", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which command is used to check the Terraform version?",
+      "options": ["terraform version", "terraform --version", "terraform info", "terraform validate"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the correct command to apply changes made in the Terraform configuration?",
+      "options": ["terraform apply", "terraform plan", "terraform validate", "terraform init"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the 'terraform validate' command do?",
+      "options": ["Validates the syntax and configuration of the Terraform files", "Displays the execution plan", "Shows the status of the infrastructure", "None of the above"],
+      "correct_answer": 0
+    }    
   ],
 
 
@@ -7708,7 +8187,232 @@
       "question": "What is TensorFlow primarily used for?",
       "options": ["Machine learning", "Web development", "Mobile app development", "Database management"],
       "correct_answer": 0
-    }
+    },
+    {
+      "question": "What is TensorFlow used for?",
+      "options": ["Machine Learning", "Web Development", "Database Management", "Game Development"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which company developed TensorFlow?",
+      "options": ["Google", "Microsoft", "Facebook", "Amazon"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which programming language is primarily used with TensorFlow?",
+      "options": ["Python", "Java", "C++", "R"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the primary focus of TensorFlow?",
+      "options": ["Deep learning", "Web scraping", "Database management", "Cloud computing"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a tensor in TensorFlow?",
+      "options": ["A multi-dimensional array", "A type of activation function", "A machine learning model", "A type of loss function"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is a core component of TensorFlow?",
+      "options": ["Graph", "Database", "SQL", "Web interface"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which TensorFlow module is used for defining and running the computational graph?",
+      "options": ["tf.Graph", "tf.Session", "tf.Module", "tf.Model"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is a 'Session' in TensorFlow?",
+      "options": ["A place to run operations", "A type of activation function", "A model layer", "A training loop"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a 'graph' in TensorFlow?",
+      "options": ["A structure representing the computational flow", "A collection of neural networks", "A type of optimizer", "A training data pipeline"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the TensorFlow 'tf.keras' API provide?",
+      "options": ["A high-level API for building and training models", "A low-level API for numerical computations", "A database connection interface", "A graph visualization tool"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is a type of layer in TensorFlow Keras?",
+      "options": ["Dense", "ReLU", "MaxPooling", "All of the above"],
+      "correct_answer": 3
+    },
+    {
+      "question": "Which optimizer is used in TensorFlow for gradient descent?",
+      "options": ["tf.optimizers.SGD", "tf.optimizers.Adam", "tf.optimizers.RMSProp", "All of the above"],
+      "correct_answer": 3
+    },
+    {
+      "question": "Which activation function is commonly used in neural networks?",
+      "options": ["ReLU", "Sigmoid", "Tanh", "All of the above"],
+      "correct_answer": 3
+    },
+    {
+      "question": "What is 'Overfitting' in machine learning?",
+      "options": ["Model is too complex and fits the training data too closely", "Model is too simple and doesn't capture enough information", "Model is not trained for enough epochs", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which TensorFlow method is used to compile a Keras model?",
+      "options": ["model.fit()", "model.compile()", "model.train()", "model.evaluate()"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is 'backpropagation' in neural networks?",
+      "options": ["The process of updating weights based on the error", "The process of feeding data into the network", "The process of normalizing data", "The process of initializing weights"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is 'batch size' in TensorFlow?",
+      "options": ["The number of samples processed before updating the model", "The number of layers in the neural network", "The number of epochs", "The size of the input data"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is a method to evaluate a TensorFlow model?",
+      "options": ["model.evaluate()", "model.predict()", "model.fit()", "model.compile()"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the 'tf.keras.layers.Flatten' layer do?",
+      "options": ["Reshapes the input to a one-dimensional array", "Adds a new layer to the model", "Applies an activation function", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is 'TensorFlow Lite' used for?",
+      "options": ["Running models on mobile and embedded devices", "Training models in the cloud", "Visualizing computational graphs", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is 'TensorFlow.js'?",
+      "options": ["A JavaScript library for running TensorFlow models in the browser", "A Python library for TensorFlow", "A cloud service for deploying models", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is used to handle missing data in TensorFlow?",
+      "options": ["tf.data API", "tf.keras", "tf.math", "tf.estimator"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the 'dropout' layer in TensorFlow do?",
+      "options": ["Prevents overfitting by randomly setting some weights to zero", "Increases the number of layers in the network", "Normalizes the inputs to the layer", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does 'tf.keras.Model' represent?",
+      "options": ["The base class for creating Keras models", "A specific type of neural network", "A pre-trained model", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the 'model.fit()' function in TensorFlow?",
+      "options": ["To train the model", "To evaluate the model", "To compile the model", "To predict outcomes"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which TensorFlow method is used to predict values with a trained model?",
+      "options": ["model.predict()", "model.evaluate()", "model.compile()", "model.fit()"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is 'gradient descent'?",
+      "options": ["An optimization algorithm used to minimize the error in training", "A way to initialize model weights", "A technique to visualize graphs", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which optimizer is known for adaptive learning rates in TensorFlow?",
+      "options": ["Adam", "SGD", "Adagrad", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is 'TensorFlow Estimator'?",
+      "options": ["A high-level API for training and evaluation", "A low-level neural network API", "A data preprocessing tool", "A visualization tool"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a 'convolutional neural network' (CNN)?",
+      "options": ["A neural network designed for image processing tasks", "A network designed for time series data", "A type of recurrent neural network", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following functions is used for normalization in TensorFlow?",
+      "options": ["tf.keras.layers.BatchNormalization", "tf.keras.layers.Normalizer", "tf.keras.layers.Normalize", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a 'Recurrent Neural Network' (RNN)?",
+      "options": ["A type of neural network designed for sequential data", "A neural network designed for image processing", "A network used for clustering", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is 'transfer learning'?",
+      "options": ["Using a pre-trained model on a new but related task", "Training a model from scratch", "Using unsupervised learning", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which TensorFlow function is used to initialize variables?",
+      "options": ["tf.initializers", "tf.keras.initializers", "tf.variables", "tf.kernels"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which layer type is used to pool or reduce the size of feature maps?",
+      "options": ["MaxPooling", "Dense", "Flatten", "Dropout"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the 'Activation' layer in TensorFlow?",
+      "options": ["To apply activation functions like ReLU or Sigmoid", "To initialize model weights", "To normalize inputs", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is 'batch normalization' in TensorFlow?",
+      "options": ["A technique for speeding up training and reducing overfitting", "A type of dropout layer", "An activation function", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which method is used to save a trained TensorFlow model?",
+      "options": ["model.save()", "model.save_weights()", "model.save_config()", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is 'Eager Execution' in TensorFlow?",
+      "options": ["An imperative programming environment where operations are evaluated immediately", "A technique for visualizing graphs", "A method for optimizing code execution", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is used to handle large datasets in TensorFlow?",
+      "options": ["tf.data API", "tf.keras", "tf.estimator", "tf.math"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does 'tf.keras.layers.Dense' represent?",
+      "options": ["A fully connected neural network layer", "A convolutional layer", "A recurrent layer", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which method is used to evaluate a TensorFlow model on new data?",
+      "options": ["model.evaluate()", "model.predict()", "model.fit()", "model.compile()"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which TensorFlow tool is used to visualize graphs and performance metrics?",
+      "options": ["TensorBoard", "tf.plot", "tf.graph", "tf.visualizer"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of 'model.compile()' in TensorFlow?",
+      "options": ["To configure the model for training", "To visualize the model architecture", "To save the model", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which function is used to generate random numbers in TensorFlow?",
+      "options": ["tf.random", "tf.math.random", "tf.rand", "None of the above"],
+      "correct_answer": 0
+    }    
   ],
 
 
@@ -7717,7 +8421,227 @@
       "question": "What is Vue.js primarily used for?",
       "options": ["Frontend development", "Backend development", "Database management", "Operating systems"],
       "correct_answer": 0
-    }
+    },
+    {
+      "question": "What is Vue.js?",
+      "options": ["A JavaScript framework for building user interfaces", "A CSS preprocessor", "A database management system", "A server-side language"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Who is the creator of Vue.js?",
+      "options": ["Evan You", "Brendan Eich", "John Resig", "Ryan Dahl"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the core concept of Vue.js?",
+      "options": ["Reactive data binding", "Server-side rendering", "Component-based architecture", "All of the above"],
+      "correct_answer": 3
+    },
+    {
+      "question": "Which file extension is used for Vue components?",
+      "options": [".vue", ".js", ".jsx", ".html"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the 'data' function in a Vue component?",
+      "options": ["To define reactive properties", "To define template structure", "To import external libraries", "To define event listeners"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is used to bind a variable to an element in Vue.js?",
+      "options": ["v-bind", "v-model", "v-for", "v-on"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the 'v-if' directive in Vue.js?",
+      "options": ["Conditionally rendering an element", "Binding an event", "Repeating an element", "Binding a value to an input field"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which directive is used for two-way data binding in Vue.js?",
+      "options": ["v-bind", "v-on", "v-model", "v-for"],
+      "correct_answer": 2
+    },
+    {
+      "question": "Which lifecycle hook is called after the Vue component is mounted?",
+      "options": ["created", "mounted", "updated", "destroyed"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the purpose of Vue Router?",
+      "options": ["Handling routing for single-page applications", "Managing the component state", "Defining custom directives", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which method is used to trigger an event in Vue.js?",
+      "options": ["$emit", "$on", "$broadcast", "$dispatch"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a 'computed property' in Vue.js?",
+      "options": ["A property that is recalculated only when its dependencies change", "A method for managing component state", "A lifecycle hook", "An event handler"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which directive is used for looping over an array in Vue.js?",
+      "options": ["v-if", "v-for", "v-model", "v-bind"],
+      "correct_answer": 1
+    },
+    {
+      "question": "How do you handle events in Vue.js?",
+      "options": ["Using v-on directive", "Using v-bind directive", "Using v-model directive", "Using event listeners in JavaScript"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the 'v-for' directive in Vue.js?",
+      "options": ["Looping over a list of items", "Binding a value to an element", "Conditionally rendering an element", "Creating components dynamically"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which Vue.js feature allows you to reuse logic across components?",
+      "options": ["Mixins", "Computed properties", "Methods", "Watchers"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the 'props' property in Vue.js?",
+      "options": ["A mechanism to pass data from parent to child components", "A lifecycle hook", "A directive for conditional rendering", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How do you update data in a Vue.js component?",
+      "options": ["Using the data object", "Using the $data object", "Using the methods object", "Using Vue.set()"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does Vue.js use to detect changes in data?",
+      "options": ["Object getter and setter", "DOM manipulation", "Polling", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which method is used to register a global component in Vue.js?",
+      "options": ["Vue.component()", "Vue.use()", "Vue.extend()", "Vue.mount()"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is Vuex used for in Vue.js?",
+      "options": ["State management", "Routing", "Data binding", "Event handling"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is not a valid Vue.js lifecycle hook?",
+      "options": ["created", "mounted", "destroyed", "refreshed"],
+      "correct_answer": 3
+    },
+    {
+      "question": "What is the purpose of the 'v-bind' directive in Vue.js?",
+      "options": ["To bind an attribute to an expression", "To loop over an array", "To handle events", "To define methods"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is true about Vue.js?",
+      "options": ["It is a progressive framework", "It is a full-stack framework", "It uses JSX as a templating engine", "It does not support components"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which directive is used for event handling in Vue.js?",
+      "options": ["v-on", "v-bind", "v-model", "v-for"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the 'created' lifecycle hook in Vue.js do?",
+      "options": ["It is called after the component is created", "It is called after the component is mounted", "It is called before the component is destroyed", "It is called when the data changes"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the 'v-show' directive in Vue.js?",
+      "options": ["To toggle the visibility of an element", "To bind a variable to an element", "To loop over an array", "To define methods"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How do you handle forms in Vue.js?",
+      "options": ["Using the v-model directive", "Using the v-bind directive", "Using the v-on directive", "Using custom methods"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is not a valid type of Vue component?",
+      "options": ["Functional components", "Stateful components", "Class components", "Single-file components"],
+      "correct_answer": 2
+    },
+    {
+      "question": "What does Vue Router allow you to do?",
+      "options": ["Navigate between views in a single-page application", "Bind data to an element", "Handle form submissions", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a Vue.js filter?",
+      "options": ["A way to format data before rendering", "A type of component", "A method for event handling", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the 'mounted' lifecycle hook used for in Vue.js?",
+      "options": ["It is called after the component is mounted to the DOM", "It is called before the component is created", "It is used for defining computed properties", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is true about Vue.js?",
+      "options": ["It uses a virtual DOM", "It is based on JSX", "It requires a build tool like Webpack", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of Vue CLI?",
+      "options": ["To scaffold a Vue project", "To manage Vue components", "To build and deploy Vue applications", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which command is used to create a new Vue project using Vue CLI?",
+      "options": ["vue create", "npm create vue", "vue init", "npm install vue"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is used for dynamic styling in Vue.js?",
+      "options": ["v-bind:style", "v-for", "v-model", "v-if"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the role of 'methods' in Vue.js?",
+      "options": ["To define functions that can be used in the template", "To define reactive data", "To create computed properties", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is 'Vue.extend()' used for?",
+      "options": ["To create a Vue component constructor", "To bind a method to an element", "To register a global component", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does 'v-if' do in Vue.js?",
+      "options": ["Conditionally renders an element", "Binds an event listener to an element", "Loops through an array", "Binds a style to an element"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a 'watcher' in Vue.js?",
+      "options": ["A feature that observes and reacts to changes in data", "A type of lifecycle hook", "A method for event handling", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is 'Vuex' in Vue.js?",
+      "options": ["A state management library", "A router for single-page applications", "A build tool for Vue.js", "A method for dynamic styling"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is used for rendering a template in Vue.js?",
+      "options": ["template", "render", "function", "directives"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does Vue.js use to perform rendering optimizations?",
+      "options": ["Virtual DOM", "Direct DOM manipulation", "Manual DOM updates", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the 'v-bind' directive in Vue.js?",
+      "options": ["To bind an attribute to an expression", "To conditionally render an element", "To define methods", "To loop through an array"],
+      "correct_answer": 0
+    }    
   ],
 
 
@@ -7726,6 +8650,7 @@
       "question": "Which company developed Windows?",
       "options": ["Microsoft", "Apple", "Google", "IBM"],
       "correct_answer": 0
-    }
+    },
+    
   ]
 }
