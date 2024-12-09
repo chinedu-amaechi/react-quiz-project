@@ -4,99 +4,3673 @@
       "question": "Which language is primarily used for Android app development?",
       "options": ["Java", "Swift", "Python", "Ruby"],
       "correct_answer": 0
-    }
+    },
+    {
+      "question": "What is the name of the official integrated development environment (IDE) for Android app development?",
+      "options": ["Eclipse", "NetBeans", "Android Studio", "Visual Studio"],
+      "correct_answer": 2
+    },
+    {
+      "question": "What is Android?",
+      "options": ["A web browser", "A mobile operating system", "A database management system", "A programming language"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Who is the founder of Android?",
+      "options": ["Andy Rubin", "Larry Page", "Sundar Pichai", "Tim Cook"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which company developed Android?",
+      "options": ["Microsoft", "Apple", "Google", "IBM"],
+      "correct_answer": 2
+    },
+    {
+      "question": "What is the Android Virtual Device (AVD)?",
+      "options": [
+        "An Android-powered smartphone",
+        "An emulator to test Android apps",
+        "A command-line tool for debugging",
+        "A library for user interface design"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which programming language is primarily used for Android app development?",
+      "options": ["Python", "Java", "C#", "Ruby"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the Gradle build system used for in Android?",
+      "options": ["Designing layouts", "Managing app dependencies and builds", "Testing apps", "Debugging"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the purpose of an Intent in Android?",
+      "options": [
+        "To pass data between activities",
+        "To store data in the database",
+        "To render graphics on the screen",
+        "To define app permissions"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is an activity in Android?",
+      "options": [
+        "A background process",
+        "A single screen with a user interface",
+        "A type of service",
+        "A system-level event"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the role of the AndroidManifest.xml file?",
+      "options": [
+        "To declare app components and permissions",
+        "To define app layouts",
+        "To manage app assets",
+        "To configure app themes"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which tool is used for debugging Android applications?",
+      "options": ["Logcat", "Gradle", "ProGuard", "DexCompiler"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the RecyclerView in Android?",
+      "options": [
+        "To manage background tasks",
+        "To display a large set of data efficiently",
+        "To debug app crashes",
+        "To interact with databases"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the use of ContentProvider in Android?",
+      "options": [
+        "To store user data",
+        "To manage app permissions",
+        "To share data between apps",
+        "To display images"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "question": "Which component is used to perform background tasks in Android?",
+      "options": ["Activity", "Service", "Intent", "Fragment"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What does ANR stand for in Android?",
+      "options": ["App Not Running", "Android Not Responding", "Application Not Responding", "Application New Release"],
+      "correct_answer": 2
+    },
+    {
+      "question": "Which class is used to create a toast message in Android?",
+      "options": ["Toast", "AlertDialog", "Notification", "Snackbar"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a fragment in Android?",
+      "options": [
+        "A lightweight activity",
+        "A reusable component within an activity",
+        "A background thread",
+        "A debugging tool"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the purpose of the SharedPreferences class?",
+      "options": [
+        "To handle user input",
+        "To save lightweight key-value pairs",
+        "To display a list of data",
+        "To debug app crashes"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which layout is best for creating a complex, responsive UI in Android?",
+      "options": ["LinearLayout", "RelativeLayout", "ConstraintLayout", "FrameLayout"],
+      "correct_answer": 2
+    },
+    {
+      "question": "What does the AsyncTask class do in Android?",
+      "options": [
+        "Handles file storage",
+        "Performs background operations and updates UI",
+        "Manages app permissions",
+        "Displays a list of data"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which Android API is used to interact with SQLite databases?",
+      "options": ["Room", "Retrofit", "Volley", "ContentProvider"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the ProGuard tool in Android?",
+      "options": [
+        "To obfuscate and shrink code",
+        "To debug applications",
+        "To design UI layouts",
+        "To test database queries"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which Android version was the first to support ART (Android Runtime)?",
+      "options": ["KitKat", "Jelly Bean", "Lollipop", "Marshmallow"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which class is used to handle location updates in Android?",
+      "options": ["LocationManager", "MapView", "GeoCoder", "LocationProvider"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the term 'material design' refer to in Android?",
+      "options": [
+        "A UI design language",
+        "A database optimization method",
+        "A debugging tool",
+        "An API for network calls"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the main advantage of using ViewModel in Android?",
+      "options": [
+        "Improves app design",
+        "Survives configuration changes",
+        "Handles background tasks",
+        "Manages navigation"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which lifecycle method is called when an activity is first created?",
+      "options": ["onStart()", "onResume()", "onCreate()", "onPause()"],
+      "correct_answer": 2
+    },
+    {
+      "question": "Which class is used for image loading in Android?",
+      "options": ["Glide", "Toast", "Snackbar", "AsyncTask"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does APK stand for?",
+      "options": ["Android Package", "Android Programming Kit", "Android Process Kit", "App Processing Kernel"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which library is used for dependency injection in Android?",
+      "options": ["Dagger", "Room", "Retrofit", "Volley"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is Jetpack in Android?",
+      "options": [
+        "A set of libraries for app development",
+        "A network debugging tool",
+        "A database management system",
+        "An API for map integration"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is LiveData in Android?",
+      "options": [
+        "A class for live-streaming apps",
+        "An observable data holder class",
+        "A library for animations",
+        "A tool for debugging"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "What does Retrofit library in Android do?",
+      "options": [
+        "Handles HTTP requests",
+        "Loads images",
+        "Provides navigation features",
+        "Manages databases"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which layout allows stacking of components on top of each other?",
+      "options": ["LinearLayout", "FrameLayout", "RelativeLayout", "ConstraintLayout"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the use of Snackbar in Android?",
+      "options": [
+        "To show brief messages at the bottom of the screen",
+        "To debug apps",
+        "To create user authentication",
+        "To display large data sets"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which file is used to define app permissions?",
+      "options": ["MainActivity.java", "AndroidManifest.xml", "build.gradle", "res/values/strings.xml"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What does FCM stand for in Android?",
+      "options": [
+        "Firebase Cloud Messaging",
+        "Firebase Code Management",
+        "File Cache Module",
+        "File Control Manager"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the Data Binding Library?",
+      "options": [
+        "To bind UI components to data sources",
+        "To handle HTTP requests",
+        "To manage app themes",
+        "To debug UI elements"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which format is used to design layouts in Android?",
+      "options": ["JSON", "XML", "YAML", "HTML"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the purpose of the ConstraintLayout in Android?",
+      "options": [
+        "To design complex layouts with constraints",
+        "To create animations",
+        "To manage databases",
+        "To store user preferences"
+      ],
+      "correct_answer": 0
+    } 
   ],
+
+
   "Angular": [
     {
       "question": "What is Angular primarily used for?",
       "options": ["Backend development", "Frontend development", "Database management", "Operating systems"],
       "correct_answer": 1
+    }, 
+    {
+      "question": "Which company developed Angular?",
+      "options": ["Microsoft", "Google", "Apple", "IBM"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the latest version of Angular?",
+      "options": ["Angular 7", "Angular 8", "Angular 9", "Angular 10"],
+      "correct_answer": 3
+    },
+    {
+      "question": "What is the name of the official integrated development environment (IDE) for Angular development?",
+      "options": ["Eclipse", "NetBeans", "Visual Studio Code", "Visual Studio"],
+      "correct_answer": 2
+    },
+    {
+      "question": "What is Angular primarily used for?",
+      "options": ["Backend development", "Frontend development", "Database management", "Operating systems"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which company developed Angular?",
+      "options": ["Microsoft", "Google", "Apple", "IBM"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What architecture does Angular follow?",
+      "options": ["MVC", "MVVM", "MVP", "MVW"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What language is primarily used to develop Angular applications?",
+      "options": ["Python", "TypeScript", "Java", "Ruby"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which command is used to create a new Angular project?",
+      "options": ["ng new", "ng create", "ng start", "ng build"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of Angular CLI?",
+      "options": [
+        "Managing databases",
+        "Building and managing Angular applications",
+        "Compiling TypeScript code",
+        "Testing backend APIs"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "What decorator is used to define a component in Angular?",
+      "options": ["@Service", "@Component", "@Directive", "@Injectable"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which lifecycle hook is called after the first ngOnChanges?",
+      "options": ["ngOnInit", "ngDoCheck", "ngAfterViewInit", "ngOnDestroy"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a directive in Angular?",
+      "options": [
+        "A class that manages database connections",
+        "A feature for DOM manipulation or behavior addition",
+        "A tool to compile TypeScript files",
+        "An API for backend development"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which Angular module is required for routing?",
+      "options": ["FormsModule", "HttpClientModule", "RouterModule", "CommonModule"],
+      "correct_answer": 2
+    },
+    {
+      "question": "What does the ngModel directive do?",
+      "options": ["Creates a new component", "Binds data between the view and model", "Implements routing", "Adds styles to an element"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which file typically defines an Angular module?",
+      "options": ["main.ts", "app.module.ts", "index.html", "styles.css"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is Angular's two-way data binding symbol?",
+      "options": ["[]", "()", "[()]", "{}"],
+      "correct_answer": 2
+    },
+    {
+      "question": "What does the ngIf directive do?",
+      "options": ["Loops through data", "Adds styles", "Conditionally shows or hides elements", "Manages routing"],
+      "correct_answer": 2
+    },
+    {
+      "question": "What is a service in Angular?",
+      "options": [
+        "A UI component",
+        "A reusable business logic provider",
+        "A database connector",
+        "An HTML element"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which file is the main entry point of an Angular application?",
+      "options": ["index.html", "main.ts", "app.module.ts", "styles.css"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the purpose of HttpClientModule in Angular?",
+      "options": ["To handle forms", "To enable HTTP requests", "To manage routing", "To load CSS styles"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What does the @Input decorator do?",
+      "options": ["Defines a module", "Passes data to a child component", "Handles output events", "Creates a service"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What does the @Output decorator do?",
+      "options": ["Handles events emitted by a child component", "Defines a module", "Passes data to a parent component", "Creates a directive"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of Angular's ngFor directive?",
+      "options": ["Adds styles", "Loops through a collection", "Handles routing", "Creates components"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is a pipe in Angular?",
+      "options": [
+        "A data transformation function",
+        "A routing method",
+        "A CSS style",
+        "A debugging tool"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which command is used to serve an Angular application locally?",
+      "options": ["ng serve", "ng run", "ng build", "ng deploy"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the Angular router?",
+      "options": ["To handle HTTP requests", "To manage application navigation", "To create components", "To define modules"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is lazy loading in Angular?",
+      "options": [
+        "Loading components on demand",
+        "Deferring loading of modules until needed",
+        "Caching static files",
+        "Delaying API calls"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the purpose of the Angular Forms module?",
+      "options": ["To manage routing", "To handle HTTP requests", "To enable form creation and validation", "To create components"],
+      "correct_answer": 2
+    },
+    {
+      "question": "What is the purpose of the Angular CommonModule?",
+      "options": ["To manage routing", "To handle HTTP requests", "To enable form creation and validation", "To define common directives and pipes"],
+      "correct_answer": 3
+    },
+    {
+      "question": "What is the purpose of the Angular BrowserAnimationsModule?",
+      "options": ["To manage routing", "To handle HTTP requests", "To enable animations", "To create components"],
+      "correct_answer": 2
+    },
+    {
+      "question": "What is the purpose of the Angular Material library?",
+      "options": ["To manage routing", "To handle HTTP requests", "To enable animations", "To create UI components"],
+      "correct_answer": 3
+    },
+    {
+      "question": "What is the purpose of the Angular Flex Layout library?",
+      "options": ["To manage routing", "To handle HTTP requests", "To enable animations", "To create responsive layouts"],
+      "correct_answer": 3
+    },
+    {
+      "question": "What is the purpose of the Angular CDK?",
+      "options": ["To manage routing", "To handle HTTP requests", "To enable animations", "To create custom components"],
+      "correct_answer": 3
+    },
+    {
+      "question": "What is the purpose of the Angular CLI?",
+      "options": ["To manage routing", "To handle HTTP requests", "To create and manage Angular projects", "To create components"],
+      "correct_answer": 2
+    },
+    {
+      "question": "What is the purpose of the Angular TestBed?",
+      "options": ["To manage routing", "To handle HTTP requests", "To create and test Angular components", "To create components"],
+      "correct_answer": 2
+    },
+    {
+      "question": "What is the purpose of the Angular RouterTestingModule?",
+      "options": ["To manage routing", "To handle HTTP requests", "To create and test Angular components", "To create components"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the Angular HttpClientTestingModule?",
+      "options": ["To manage routing", "To handle HTTP requests", "To create and test Angular components", "To create components"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which directive is used to dynamically apply CSS classes to an element?",
+      "options": ["ngIf", "ngClass", "ngStyle", "ngModel"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the default port for an Angular application served locally?",
+      "options": ["3000", "4200", "8080", "5000"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which operator is commonly used with observables in Angular to transform data?",
+      "options": ["map", "filter", "reduce", "merge"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is an Angular module?",
+      "options": [
+        "A collection of components, directives, and services",
+        "A single function",
+        "A CSS file",
+        "An HTML template"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the environment.ts file?",
+      "options": [
+        "To store configuration settings",
+        "To define CSS styles",
+        "To manage user authentication",
+        "To handle API requests"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which lifecycle hook is called when a component is destroyed?",
+      "options": ["ngOnInit", "ngDoCheck", "ngOnDestroy", "ngAfterViewChecked"],
+      "correct_answer": 2
+    },
+    {
+      "question": "What does AOT stand for in Angular?",
+      "options": [
+        "Ahead of Template",
+        "Ahead of Time",
+        "Application on Time",
+        "Angular Object Transformation"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is a resolver in Angular?",
+      "options": [
+        "A service that fetches data before activating a route",
+        "A directive to manage styles",
+        "A method for debugging",
+        "A function to transform components"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which Angular concept is used to detect changes in the application?",
+      "options": ["Change Detection", "Dependency Injection", "Event Binding", "Routing"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the Angular Dependency Injection (DI) system?",
+      "options": [
+        "To inject CSS styles",
+        "To manage services and their dependencies",
+        "To initialize components",
+        "To debug applications"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the purpose of the async pipe in Angular?",
+      "options": [
+        "To handle asynchronous operations in templates",
+        "To transform data into JSON format",
+        "To enable routing",
+        "To add event listeners"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the default directive prefix in Angular?",
+      "options": ["ng", "app", "au", "default"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the Angular zone?",
+      "options": [
+        "To manage asynchronous tasks and detect changes",
+        "To define CSS styles",
+        "To handle HTTP requests",
+        "To manage component states"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which tool is commonly used for debugging Angular applications?",
+      "options": ["Redux DevTools", "Angular DevTools", "Firebug", "Node.js Inspector"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the purpose of the 'ng-template' tag in Angular?",
+      "options": [
+        "To define reusable components",
+        "To define HTML that is conditionally or dynamically rendered",
+        "To apply CSS styles",
+        "To create modules"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which method is used to navigate programmatically in Angular routing?",
+      "options": ["router.navigate()", "route.to()", "router.go()", "navigate.route()"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the 'ng-container' tag do?",
+      "options": [
+        "Acts as a container without adding an extra DOM element",
+        "Defines new modules",
+        "Creates new components",
+        "Binds CSS styles"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which file contains the root module of an Angular application?",
+      "options": ["main.ts", "app.component.ts", "app.module.ts", "index.html"],
+      "correct_answer": 2
+    },
+    {
+      "question": "What is Ivy in Angular?",
+      "options": [
+        "A CSS framework",
+        "The new Angular rendering engine",
+        "A testing framework",
+        "An HTTP client library"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "What command builds the Angular project for production?",
+      "options": ["ng build", "ng serve", "ng run", "ng deploy"],
+      "correct_answer": 0
     }
   ],
+
+
   "ASP.NET": [
+    {
+      "question": "What is ASP.NET?",
+      "options": ["A web development framework", "A database system", "An operating system", "A programming language"],
+      "correct_answer": 0
+    },
+    {
+      "question": "ASP.NET is developed by which company?",
+      "options": ["Google", "Microsoft", "Apple", "IBM"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What does ASP stand for in ASP.NET?",
+      "options": ["Active Server Pages", "Application Server Pages", "Advanced Server Pages", "Application System Platform"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which programming languages can be used with ASP.NET?",
+      "options": ["Java", "C#", "Python", "Ruby"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the purpose of the Global.asax file in ASP.NET?",
+      "options": [
+        "To configure routing",
+        "To define global application-level events",
+        "To manage database connections",
+        "To store session data"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the default language for ASP.NET?",
+      "options": ["VB.NET", "C#", "Python", "JavaScript"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of a ViewState in ASP.NET?",
+      "options": [
+        "To store data across server requests",
+        "To manage database connections",
+        "To define page styles",
+        "To log application errors"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is a component of the ASP.NET page lifecycle?",
+      "options": ["Page_Init", "Page_Load", "Page_PreRender", "All of the above"],
+      "correct_answer": 3
+    },
+    {
+      "question": "What is the primary purpose of a Master Page in ASP.NET?",
+      "options": [
+        "To display database records",
+        "To define a consistent layout for multiple pages",
+        "To log user actions",
+        "To manage server settings"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "What does MVC stand for in ASP.NET MVC?",
+      "options": ["Model-View-Controller", "Managed Virtual Code", "Multiple View Control", "Modern Visual Compiler"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which directive is used to include a user control in ASP.NET?",
+      "options": ["#Include", "Register", "Control", "Import"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which component of ASP.NET handles user requests?",
+      "options": ["Web Server", "HTTP Handler", "View Engine", "Session State"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is Razor in ASP.NET?",
+      "options": [
+        "A template markup syntax",
+        "A database framework",
+        "An authentication tool",
+        "A debugging tool"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the Web.config file in ASP.NET?",
+      "options": [
+        "To configure application settings",
+        "To define user controls",
+        "To store ViewState data",
+        "To manage page layouts"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which method is used to permanently redirect a user to another page?",
+      "options": ["Response.Redirect", "Server.Transfer", "RedirectPermanent", "Http.Redirect"],
+      "correct_answer": 2
+    },
+    {
+      "question": "What is the role of a controller in ASP.NET MVC?",
+      "options": [
+        "To manage user authentication",
+        "To handle user input and update the model and view",
+        "To define the layout of the application",
+        "To store application settings"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the purpose of session state in ASP.NET?",
+      "options": [
+        "To store user-specific data temporarily",
+        "To manage server resources",
+        "To configure application settings",
+        "To log user activities"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does LINQ stand for in ASP.NET?",
+      "options": [
+        "Language-Integrated Query",
+        "Lightweight Information Query",
+        "Linked Integration Query",
+        "List Interoperation Query"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the default port for an ASP.NET web application?",
+      "options": ["80", "8080", "443", "5000"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which framework is used for API development in ASP.NET?",
+      "options": ["ASP.NET Web Forms", "ASP.NET Web API", "Razor Pages", "ASP.NET Core"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the purpose of the TempData object in ASP.NET?",
+      "options": [
+        "To persist data between two consecutive requests",
+        "To manage database transactions",
+        "To log application errors",
+        "To display temporary notifications"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is middleware in ASP.NET Core?",
+      "options": [
+        "Components that handle HTTP requests and responses",
+        "Database interaction tools",
+        "Authentication modules",
+        "A routing mechanism"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which ASP.NET framework uses Razor Pages?",
+      "options": ["ASP.NET Web Forms", "ASP.NET Core", "ASP.NET MVC", "ASP.NET AJAX"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is SignalR in ASP.NET?",
+      "options": [
+        "A library for real-time web communication",
+        "A testing framework",
+        "A tool for database integration",
+        "An authentication protocol"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is dependency injection in ASP.NET Core?",
+      "options": [
+        "A pattern to inject dependencies into components",
+        "A debugging tool",
+        "A type of database query",
+        "A form of user authentication"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which protocol is used by Web API in ASP.NET?",
+      "options": ["HTTP", "FTP", "SMTP", "TCP"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the default view engine in ASP.NET MVC?",
+      "options": ["Razor", "WebForms", "Blazor", "XAML"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the ViewBag object in ASP.NET MVC?",
+      "options": [
+        "To pass temporary data from controller to view",
+        "To store session data",
+        "To log user actions",
+        "To manage application settings"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is Kestrel in ASP.NET Core?",
+      "options": [
+        "A cross-platform web server",
+        "A database management system",
+        "A debugging tool",
+        "A design pattern"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is Blazor in ASP.NET?",
+      "options": [
+        "A framework for building web apps using C#",
+        "A testing library",
+        "A tool for database interaction",
+        "An API debugging tool"
+      ],
+      "correct_answer": 0
+    },
+	    {
+      "question": "Which object in ASP.NET Core is used to manage configuration settings?",
+      "options": ["IConfiguration", "IConfigManager", "WebConfig", "AppSettings"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of appsettings.json in ASP.NET Core?",
+      "options": [
+        "To store configuration settings in JSON format",
+        "To manage database schemas",
+        "To log error messages",
+        "To store ViewState information"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the role of the UseStaticFiles middleware in ASP.NET Core?",
+      "options": [
+        "To serve static files like CSS and JavaScript",
+        "To configure routing",
+        "To manage authentication",
+        "To handle API requests"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which template is used to create a Web API project in ASP.NET Core?",
+      "options": [
+        "API template",
+        "Web Application (Model-View-Controller)",
+        "Empty template",
+        "Single Page Application template"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is Entity Framework (EF) in ASP.NET?",
+      "options": [
+        "An Object-Relational Mapping framework",
+        "A web hosting service",
+        "A debugging tool",
+        "A testing framework"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which ASP.NET feature is used to handle user authentication?",
+      "options": ["Identity", "SignalR", "Middleware", "ViewState"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the use of AntiForgeryToken in ASP.NET MVC?",
+      "options": [
+        "To prevent Cross-Site Request Forgery (CSRF) attacks",
+        "To encrypt database connections",
+        "To manage session state",
+        "To log user errors"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the default database provider for ASP.NET Core Identity?",
+      "options": ["SQL Server", "MySQL", "PostgreSQL", "MongoDB"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the UseEndpoints method in ASP.NET Core do?",
+      "options": [
+        "Defines application routes",
+        "Configures database connections",
+        "Handles API authentication",
+        "Manages static file settings"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of IHostedService in ASP.NET Core?",
+      "options": [
+        "To execute background tasks",
+        "To manage API endpoints",
+        "To handle user sessions",
+        "To configure database schemas"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the advantage of using Dependency Injection in ASP.NET Core?",
+      "options": [
+        "Improved code maintainability",
+        "Better error handling",
+        "Faster database queries",
+        "Enhanced UI performance"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which namespace is commonly used for ASP.NET Core MVC?",
+      "options": [
+        "Microsoft.AspNetCore.Mvc",
+        "System.Web.Mvc",
+        "Microsoft.Web.Mvc",
+        "System.Mvc.Core"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of Tag Helpers in ASP.NET Core?",
+      "options": [
+        "To simplify HTML generation",
+        "To optimize database queries",
+        "To manage routing",
+        "To debug JavaScript"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the function of the Startup.cs file in ASP.NET Core?",
+      "options": [
+        "To configure application services and middleware",
+        "To handle database migrations",
+        "To store session state",
+        "To define Razor layouts"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which method is used to add middleware in ASP.NET Core?",
+      "options": ["UseMiddleware", "AddMiddleware", "SetMiddleware", "ConfigureMiddleware"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the role of the AddDbContext method in ASP.NET Core?",
+      "options": [
+        "To configure Entity Framework with a specific database context",
+        "To log user activity",
+        "To handle Razor Views",
+        "To manage session data"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is ViewComponent in ASP.NET Core?",
+      "options": [
+        "A reusable component for rendering parts of a view",
+        "A tool for managing Razor Pages",
+        "A middleware for authentication",
+        "A helper for database queries"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which ASP.NET Core feature is used for real-time communication?",
+      "options": ["SignalR", "Tag Helpers", "Blazor", "Entity Framework"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the ConfigureServices method in ASP.NET Core?",
+      "options": [
+        "To add services to the dependency injection container",
+        "To configure middleware",
+        "To handle routing",
+        "To manage Razor layouts"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the IActionResult interface represent in ASP.NET MVC?",
+      "options": [
+        "The result of an action method",
+        "A database query",
+        "A middleware configuration",
+        "An authentication mechanism"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the difference between TempData and ViewData in ASP.NET MVC?",
+      "options": [
+        "TempData persists data for one request, while ViewData is used within a single request.",
+        "TempData is used for permanent storage, while ViewData is temporary.",
+        "TempData is for database interactions, while ViewData handles UI data.",
+        "TempData is for authentication, while ViewData manages configurations."
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the use of scaffolding in ASP.NET Core?",
+      "options": [
+        "To generate boilerplate code for CRUD operations",
+        "To optimize API performance",
+        "To handle session state",
+        "To configure database settings"
+      ],
+      "correct_answer": 0
+    },
     {
       "question": "What does ASP.NET stand for?",
       "options": ["Active Server Pages", "Advanced Server Pages", "Active Server Pages .NET", "Advanced Server Pages .NET"],
       "correct_answer": 2
     }
   ],
+
+
   "AWS": [
     {
       "question": "What does AWS stand for?",
       "options": ["Amazon Web Services", "Azure Web Services", "Amazon Web Solutions", "Azure Web Solutions"],
       "correct_answer": 0
+    },
+    {
+      "question": "What is Amazon EC2 primarily used for?",
+      "options": [
+        "Data storage",
+        "Virtual server hosting",
+        "Content delivery",
+        "Database management"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "What does S3 in Amazon S3 stand for?",
+      "options": [
+        "Simple Storage Service",
+        "Secure Server Service",
+        "Storage Scaling System",
+        "Simple Server Storage"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which AWS service is used for scalable DNS management?",
+      "options": [
+        "Amazon Route 53",
+        "AWS CloudFront",
+        "Amazon VPC",
+        "Elastic Load Balancing"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the main purpose of AWS Lambda?",
+      "options": [
+        "To run code without provisioning or managing servers",
+        "To deploy machine learning models",
+        "To manage virtual machines",
+        "To build relational databases"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the primary use case of AWS CloudFormation?",
+      "options": [
+        "Infrastructure as code",
+        "Data encryption",
+        "Video streaming",
+        "User authentication"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the term 'region' mean in AWS?",
+      "options": [
+        "A geographical area with multiple data centers",
+        "A specific security group",
+        "A virtual machine",
+        "An isolated network zone"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which AWS service is used for content delivery?",
+      "options": [
+        "AWS CloudFront",
+        "AWS S3",
+        "Amazon EC2",
+        "Amazon VPC"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the maximum size of an individual object in Amazon S3?",
+      "options": [
+        "5 TB",
+        "1 TB",
+        "10 TB",
+        "500 GB"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of Elastic Load Balancing in AWS?",
+      "options": [
+        "Distribute incoming traffic across multiple instances",
+        "Encrypt data stored in S3",
+        "Deploy machine learning models",
+        "Manage DNS records"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which database service in AWS is fully managed and designed for relational databases?",
+      "options": [
+        "Amazon RDS",
+        "DynamoDB",
+        "Amazon Redshift",
+        "Aurora"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the function of AWS IAM?",
+      "options": [
+        "To manage access permissions and users",
+        "To deploy machine learning models",
+        "To optimize cloud costs",
+        "To handle serverless functions"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is Amazon VPC primarily used for?",
+      "options": [
+        "Isolating resources within a virtual network",
+        "Managing databases",
+        "Handling content delivery",
+        "Deploying AI models"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What type of database is Amazon DynamoDB?",
+      "options": [
+        "NoSQL",
+        "Relational",
+        "Graph",
+        "Time-series"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which service is used for monitoring and managing AWS resources?",
+      "options": [
+        "Amazon CloudWatch",
+        "AWS Config",
+        "AWS X-Ray",
+        "AWS Management Console"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the AWS Well-Architected Framework provide?",
+      "options": [
+        "Best practices for building secure and efficient applications",
+        "Templates for cloud automation",
+        "Guides for database migrations",
+        "Training resources for AWS certifications"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the default consistency model of DynamoDB?",
+      "options": [
+        "Eventually consistent",
+        "Strongly consistent",
+        "Write-optimized",
+        "Read-optimized"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which AWS service provides serverless computing?",
+      "options": [
+        "AWS Lambda",
+        "Amazon EC2",
+        "Amazon EKS",
+        "Amazon S3"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is AWS Auto Scaling used for?",
+      "options": [
+        "Automatically adjusting the number of resources based on demand",
+        "Encrypting data stored in S3",
+        "Deploying machine learning models",
+        "Managing IAM policies"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which AWS service is designed for message queuing?",
+      "options": [
+        "Amazon SQS",
+        "AWS Step Functions",
+        "Amazon SNS",
+        "Amazon MQ"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of Amazon CloudFront?",
+      "options": [
+        "Content delivery and caching",
+        "Database backup",
+        "Serverless computing",
+        "DNS management"
+      ],
+      "correct_answer": 0
+    },
+	{
+      "question": "What is AWS Elastic Beanstalk?",
+      "options": [
+        "A platform as a service (PaaS) for deploying and managing applications",
+        "A serverless computing service",
+        "A database migration tool",
+        "A tool for monitoring application performance"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which service helps migrate databases to AWS?",
+      "options": [
+        "AWS Database Migration Service (DMS)",
+        "Amazon RDS",
+        "AWS Lambda",
+        "Amazon Redshift"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does Amazon EBS stand for?",
+      "options": [
+        "Elastic Block Store",
+        "Elastic Backup Service",
+        "Enhanced Backup Storage",
+        "Elastic Base Storage"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which AWS service provides data warehousing?",
+      "options": [
+        "Amazon Redshift",
+        "Amazon RDS",
+        "Amazon DynamoDB",
+        "Amazon ElastiCache"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of AWS Trusted Advisor?",
+      "options": [
+        "To provide best practice recommendations",
+        "To monitor server performance",
+        "To manage IAM policies",
+        "To analyze application code"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What type of storage is Amazon S3 classified as?",
+      "options": [
+        "Object storage",
+        "Block storage",
+        "File storage",
+        "Relational storage"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which service is used for building containerized applications in AWS?",
+      "options": [
+        "Amazon ECS",
+        "Amazon EC2",
+        "AWS Lambda",
+        "Amazon S3"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does AWS Snowball provide?",
+      "options": [
+        "Secure data transfer using physical devices",
+        "Database performance optimization",
+        "Real-time analytics",
+        "Serverless functions"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is AWS CodePipeline used for?",
+      "options": [
+        "Automating the software release process",
+        "Monitoring server performance",
+        "Managing containerized applications",
+        "Storing infrastructure templates"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which service is designed for data lake creation in AWS?",
+      "options": [
+        "AWS Lake Formation",
+        "Amazon S3",
+        "AWS Glue",
+        "Amazon RDS"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which AWS service is a fully managed NoSQL database?",
+      "options": [
+        "Amazon DynamoDB",
+        "Amazon Aurora",
+        "Amazon Redshift",
+        "Amazon RDS"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the function of AWS Identity and Access Management (IAM)?",
+      "options": [
+        "To manage user permissions and secure access",
+        "To deploy serverless applications",
+        "To create scalable networks",
+        "To store encrypted files"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the use of AWS CloudTrail?",
+      "options": [
+        "To log and monitor AWS API activity",
+        "To encrypt data in transit",
+        "To manage serverless workflows",
+        "To optimize storage costs"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which AWS service allows you to run virtual servers?",
+      "options": [
+        "Amazon EC2",
+        "AWS Lambda",
+        "Amazon Lightsail",
+        "Amazon RDS"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the primary purpose of Amazon CloudWatch?",
+      "options": [
+        "To monitor and manage AWS resources",
+        "To deploy machine learning models",
+        "To configure virtual private networks",
+        "To encrypt sensitive data"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which AWS service is used to distribute traffic across multiple targets?",
+      "options": [
+        "Elastic Load Balancing",
+        "Amazon S3",
+        "AWS Auto Scaling",
+        "Amazon Route 53"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does AWS Config allow you to do?",
+      "options": [
+        "Track changes to AWS resources",
+        "Deploy serverless applications",
+        "Monitor virtual machines",
+        "Encrypt database connections"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the function of AWS Kinesis?",
+      "options": [
+        "Processing real-time streaming data",
+        "Building machine learning pipelines",
+        "Managing virtual networks",
+        "Encrypting data at rest"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which service is used to host a static website on AWS?",
+      "options": [
+        "Amazon S3",
+        "AWS Lambda",
+        "AWS CloudFront",
+        "Amazon EC2"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is AWS Glue primarily used for?",
+      "options": [
+        "ETL (Extract, Transform, Load) operations",
+        "Encrypting sensitive data",
+        "Monitoring application performance",
+        "Automating software deployment"
+      ],
+      "correct_answer": 0
+    },
+	{
+      "question": "Which AWS service is designed for scalable file storage?",
+      "options": [
+        "Amazon EFS",
+        "Amazon S3",
+        "AWS Glacier",
+        "Amazon Redshift"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of AWS Direct Connect?",
+      "options": [
+        "Establish a dedicated network connection to AWS",
+        "Encrypt data in transit",
+        "Optimize database queries",
+        "Distribute content globally"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the primary benefit of Amazon Aurora?",
+      "options": [
+        "High-performance relational database",
+        "Cost-efficient object storage",
+        "Low-latency NoSQL database",
+        "Serverless file system"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is AWS Outposts used for?",
+      "options": [
+        "Run AWS services on-premises",
+        "Deploy machine learning models",
+        "Process real-time analytics",
+        "Encrypt files stored in S3"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which AWS service is used for analyzing log data?",
+      "options": [
+        "Amazon CloudWatch Logs",
+        "AWS CloudTrail",
+        "AWS Config",
+        "Amazon Redshift"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is Amazon SageMaker used for?",
+      "options": [
+        "Building and deploying machine learning models",
+        "Monitoring server performance",
+        "Managing serverless workflows",
+        "Encrypting database records"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which AWS service is designed for data archival?",
+      "options": [
+        "Amazon S3 Glacier",
+        "AWS Backup",
+        "Amazon RDS",
+        "AWS CloudTrail"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does AWS Elasticache provide?",
+      "options": [
+        "In-memory data caching",
+        "Relational database services",
+        "Serverless computing",
+        "Data lake management"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which AWS service provides managed Kubernetes?",
+      "options": [
+        "Amazon EKS",
+        "AWS Lambda",
+        "AWS CloudFormation",
+        "Amazon ECS"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does AWS X-Ray help developers do?",
+      "options": [
+        "Analyze and debug distributed applications",
+        "Deploy machine learning models",
+        "Encrypt data in motion",
+        "Manage identity and access"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which AWS service provides serverless API hosting?",
+      "options": [
+        "Amazon API Gateway",
+        "Amazon EC2",
+        "Amazon RDS",
+        "AWS Glue"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of AWS Batch?",
+      "options": [
+        "To run batch computing workloads",
+        "To create infrastructure templates",
+        "To manage data lakes",
+        "To encrypt sensitive information"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which AWS service is primarily used for big data processing?",
+      "options": [
+        "Amazon EMR",
+        "AWS Glue",
+        "Amazon DynamoDB",
+        "Amazon RDS"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the main use case for AWS Lightsail?",
+      "options": [
+        "Simple virtual private server hosting",
+        "Serverless computing",
+        "Real-time data analytics",
+        "Relational database management"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which AWS service supports fully managed blockchain networks?",
+      "options": [
+        "Amazon Managed Blockchain",
+        "AWS Glue",
+        "Amazon Redshift",
+        "AWS Lambda"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the role of AWS Artifact?",
+      "options": [
+        "Provide compliance and audit documentation",
+        "Manage user permissions",
+        "Monitor server performance",
+        "Encrypt sensitive data"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which AWS service is designed for creating virtual private networks?",
+      "options": [
+        "AWS VPN",
+        "Amazon VPC",
+        "Elastic Load Balancing",
+        "AWS Direct Connect"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does Amazon Polly do?",
+      "options": [
+        "Converts text to speech",
+        "Analyzes video content",
+        "Processes real-time data streams",
+        "Manages application performance"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which service is used to automate deployment pipelines in AWS?",
+      "options": [
+        "AWS CodePipeline",
+        "AWS Glue",
+        "AWS Lambda",
+        "AWS X-Ray"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of AWS Step Functions?",
+      "options": [
+        "Coordinate distributed applications using workflows",
+        "Encrypt data in transit",
+        "Monitor database queries",
+        "Manage cloud costs"
+      ],
+      "correct_answer": 0
     }
   ],
+
+
   "C++": [
     {
       "question": "Which of the following is a valid C++ data type?",
       "options": ["int", "string", "bool", "All of the above"],
       "correct_answer": 3
+    },
+    {
+      "question": "What is the size of a `char` in C++?",
+      "options": ["1 byte", "2 bytes", "4 bytes", "8 bytes"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is the correct way to declare a pointer in C++?",
+      "options": ["int* ptr;", "ptr* int;", "pointer int;", "int ptr;"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the `new` operator in C++?",
+      "options": ["To allocate memory dynamically", "To delete memory", "To declare variables", "To access array elements"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is not a feature of object-oriented programming?",
+      "options": ["Encapsulation", "Inheritance", "Polymorphism", "Assembly"],
+      "correct_answer": 3
+    },
+    {
+      "question": "What is the default access modifier for members of a class in C++?",
+      "options": ["private", "protected", "public", "default"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which operator is used for accessing members of a structure or class through a pointer in C++?",
+      "options": ["->", ".", "::", "&"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does `void` indicate in a C++ function?",
+      "options": ["The function returns no value", "The function accepts no arguments", "The function is overloaded", "The function is private"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following statements about constructors in C++ is true?",
+      "options": ["They are called automatically when an object is created", "They return values", "They must be explicitly called", "They are declared with the `void` keyword"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the difference between `++i` and `i++` in C++?",
+      "options": ["`++i` increments the value before using it, `i++` after", "`++i` increments once, `i++` increments twice", "`++i` is faster", "`i++` is used for objects only"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is used to declare an array in C++?",
+      "options": ["int arr[];", "array int;", "int[] arr;", "arr(int);"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which keyword is used to declare a constant in C++?",
+      "options": ["const", "final", "immutable", "define"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the output of the following code?\n`int x = 10; std::cout << ++x;`",
+      "options": ["10", "11", "0", "Compilation error"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which of the following is used to handle exceptions in C++?",
+      "options": ["try-catch blocks", "throw-catch blocks", "except-try blocks", "catch-finally blocks"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following methods can be used to allocate memory dynamically in C++?",
+      "options": ["malloc()", "new", "free()", "calloc()"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the use of the `friend` keyword in C++?",
+      "options": ["To grant access to private members of a class", "To prevent inheritance", "To overload operators", "To define a constant"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the `virtual` keyword in C++?",
+      "options": ["To enable dynamic polymorphism", "To prevent a function from being overridden", "To define constants", "To declare private functions"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is the correct way to declare a multi-dimensional array in C++?",
+      "options": ["int arr[3][3];", "int[3][3] arr;", "array<int, 3, 3> arr;", "arr[3, 3] int;"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which operator is used for memory deallocation in C++?",
+      "options": ["delete", "free", "dealloc", "clear"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is used to handle file I/O operations in C++?",
+      "options": ["fstream", "iostream", "stdio", "cin/cout"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the result of the following expression?\n`5 + 3 * 2`",
+      "options": ["11", "16", "10", "13"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the `this` pointer in C++?",
+      "options": ["It points to the current object", "It points to the next element in an array", "It stores the address of the first class object", "It points to the parent class object"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is an example of a C++ standard library container?",
+      "options": ["std::vector", "std::map", "std::list", "All of the above"],
+      "correct_answer": 3
+    },
+    {
+      "question": "What is the output of the following code?\n`int i = 5; std::cout << i++;`",
+      "options": ["5", "6", "Compilation error", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following statements about inheritance in C++ is false?",
+      "options": ["A class can inherit from multiple classes", "A class can inherit only from one class", "A subclass can override methods of a superclass", "A class can inherit from an abstract class"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which of the following is used to define an abstract class in C++?",
+      "options": ["At least one pure virtual function", "A constructor", "At least one public member", "A private destructor"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the `sizeof` operator return in C++?",
+      "options": ["The size of a variable or data type", "The address of a variable", "The memory location", "The size of the stack"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following correctly declares a reference in C++?",
+      "options": ["int& ref;", "int* ref;", "ref int;", "int&;"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the result of the following code?\n`int a = 10; std::cout << a / 3;`",
+      "options": ["3", "3.33", "10", "Compilation error"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is true about a constructor in C++?",
+      "options": ["It is called when an object is created", "It is used to allocate memory", "It must return a value", "It is optional for all classes"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is not a valid C++ data type?",
+      "options": ["int", "char", "float", "boolean"],
+      "correct_answer": 3
+    },
+    {
+      "question": "Which of the following is a correct definition of a function pointer in C++?",
+      "options": ["int (*ptr)();", "int ptr()", "ptr int;", "void function();"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the `static` keyword in C++?",
+      "options": ["To define class-level variables", "To define globally accessible variables", "To prevent memory allocation", "To define virtual functions"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the `return` statement do in a C++ function?",
+      "options": ["Exits the function and returns a value", "Stops the program execution", "Defines the function parameters", "Starts the function execution"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following correctly defines a recursive function in C++?",
+      "options": ["A function that calls itself", "A function that iterates through an array", "A function that sorts data", "A function that takes multiple arguments"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is used for managing dynamic arrays in C++?",
+      "options": ["std::vector", "std::array", "int[]", "int*"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is a correct declaration of a multi-dimensional array in C++?",
+      "options": ["int arr[3][3];", "int arr[];", "array<int, 3, 3> arr;", "arr(3, 3) int;"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the main benefit of using classes and objects in C++?",
+      "options": ["Encapsulation and code organization", "Increased memory usage", "Faster program execution", "Increased complexity"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is used for implementing inheritance in C++?",
+      "options": ["`:public`", "`extends`", "`inherits`", "`subclass`"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the default constructor in C++?",
+      "options": ["A constructor with no arguments", "A constructor that is automatically called", "A constructor that accepts one argument", "A constructor with a default value"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is an example of polymorphism in C++?",
+      "options": ["Overloading functions", "Overriding methods", "Using a base class pointer to access derived class methods", "All of the above"],
+      "correct_answer": 3
+    },
+    {
+      "question": "What is the function of the `delete` operator in C++?",
+      "options": ["To deallocate dynamically allocated memory", "To delete a class object", "To clear an array", "To remove a variable"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is used to store constant values in C++?",
+      "options": ["`const` keyword", "`final` keyword", "`immutable` keyword", "`constant` keyword"],
+      "correct_answer": 0
     }
   ],
+
+
   "C#": [
     {
       "question": "Which company developed C#?",
       "options": ["Microsoft", "Google", "Apple", "IBM"],
       "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is the correct way to declare a variable in C#?",
+      "options": ["int var;", "int: var;", "var = int;", "int var = 0;"],
+      "correct_answer": 3
+    },
+    {
+      "question": "What does the `var` keyword do in C#?",
+      "options": ["It declares a variable with a dynamic type", "It declares a constant", "It is used to define an array", "It is used to declare a method"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is the correct syntax for a method definition in C#?",
+      "options": ["void method() {}", "void method() ;", "method void() {}", "void method[](){}"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following statements is true about C# arrays?",
+      "options": ["Arrays in C# are zero-indexed", "Arrays in C# are dynamically sized", "Arrays in C# cannot store different types of data", "Arrays in C# do not require initialization"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following access modifiers is used to make a member accessible only within its class in C#?",
+      "options": ["public", "protected", "private", "internal"],
+      "correct_answer": 2
+    },
+    {
+      "question": "Which of the following is the default access modifier for class members in C#?",
+      "options": ["private", "protected", "internal", "public"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which operator is used to check if two objects are equal in C#?",
+      "options": ["==", "=", "equals()", "==="],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the base class for all types in C#?",
+      "options": ["System.Object", "System.Base", "System.Type", "System.Class"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the correct way to define an array in C#?",
+      "options": ["int[] arr = {1, 2, 3};", "int arr[] = {1, 2, 3};", "int arr = [1, 2, 3];", "arr int[] = {1, 2, 3};"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is true about a constructor in C#?",
+      "options": ["A constructor has the same name as the class", "A constructor must return a value", "A constructor is called after object creation", "A constructor can be explicitly called"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a delegate in C#?",
+      "options": ["A class type that encapsulates a method reference", "A method that calls other methods", "A data structure", "A form of an array"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which keyword is used to define a constant value in C#?",
+      "options": ["const", "static", "final", "immutable"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the `using` keyword do in C#?",
+      "options": ["It imports namespaces", "It declares a constant", "It defines a method", "It is used to implement inheritance"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is the correct syntax to start a `foreach` loop in C#?",
+      "options": ["foreach (var item in collection) {}", "for (item in collection) {}", "foreach (item : collection) {}", "for each (item in collection) {}"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the `static` keyword in C#?",
+      "options": ["To define class-level variables or methods", "To prevent inheritance", "To define constant values", "To define instance-level methods"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is a value type in C#?",
+      "options": ["int", "string", "object", "class"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of `null` in C#?",
+      "options": ["It represents the absence of a value", "It represents an empty string", "It represents an uninitialized variable", "It represents a reference to an object"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is the correct way to handle exceptions in C#?",
+      "options": ["try-catch block", "throw-catch block", "try-finally block", "catch-finally block"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the `base` keyword refer to in C#?",
+      "options": ["The base class of a derived class", "A base data type", "A method in the current class", "An instance of a class"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is true about C# interfaces?",
+      "options": ["An interface defines a contract for classes to implement", "An interface can implement methods", "An interface can hold state", "An interface cannot be inherited"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the `yield` keyword in C#?",
+      "options": ["It returns an iterator value in a method", "It defines a constant", "It creates a delegate", "It generates a method overload"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the correct syntax to declare a property in C#?",
+      "options": ["public int MyProperty { get; set; }", "int MyProperty { get; set; }", "public int MyProperty[]", "public get set MyProperty;"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a `namespace` in C#?",
+      "options": ["A container for organizing classes and other types", "A type of method", "A type of array", "A function definition"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is true about C# properties?",
+      "options": ["A property has get and set methods", "A property is used to declare a method", "A property can store multiple values", "A property must be private"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of `async` and `await` in C#?",
+      "options": ["To define asynchronous methods", "To define synchronous methods", "To define properties", "To define events"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is the correct way to handle multiple exceptions in C#?",
+      "options": ["try-catch-finally", "try-catch-catch", "catch-catch-finally", "catch-finally"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the purpose of `abstract` keyword in C#?",
+      "options": ["To define a class that cannot be instantiated", "To define a method that has no implementation", "To define a method that is inherited", "To define an interface"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the result of the following code?\n`int[] arr = new int[5]; arr[5] = 10;`",
+      "options": ["Runtime exception", "Syntax error", "Array index out of bounds exception", "Compilation error"],
+      "correct_answer": 2
+    },
+    {
+      "question": "What is the `params` keyword used for in C#?",
+      "options": ["To pass a variable number of arguments to a method", "To define an array", "To create a constant array", "To define a reference type"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which method is used to add elements to a collection in C#?",
+      "options": ["Add()", "Insert()", "Put()", "Append()"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is the correct syntax for using LINQ in C#?",
+      "options": ["from var in collection select var", "var collection select from", "select var from collection", "select var in collection"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which type of class can implement multiple interfaces in C#?",
+      "options": ["A class", "A struct", "An enum", "A delegate"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the `is` keyword do in C#?",
+      "options": ["It checks the type of an object", "It creates an instance of a type", "It defines a method", "It defines an event"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is true about `readonly` fields in C#?",
+      "options": ["They can only be assigned once", "They can be modified at any time", "They cannot be used in a constructor", "They can be inherited"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the default value of a `bool` in C#?",
+      "options": ["false", "true", "null", "0"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following types is reference type in C#?",
+      "options": ["string", "int", "float", "double"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following keywords is used for method overloading in C#?",
+      "options": ["None", "new", "virtual", "override"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is the correct syntax for declaring an event in C#?",
+      "options": ["public event EventHandler MyEvent;", "public MyEvent event EventHandler;", "public EventHandler MyEvent event;", "event MyEvent public EventHandler;"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a `static` method in C#?",
+      "options": ["A method that belongs to the type rather than an instance", "A method that runs asynchronously", "A method that is used to handle exceptions", "A method that can access only static members"],
+      "correct_answer": 0
     }
   ],
+
+
   "Cryptography": [
     {
       "question": "What does RSA stand for in cryptography?",
       "options": ["Rivest–Shamir–Adleman", "Randomized Security Algorithm", "Reliable Secure Authentication", "Rotating Secure Algorithm"],
       "correct_answer": 0
+    },
+    {
+      "question": "What is cryptography?",
+      "options": ["The practice of securing communication", "The study of numbers", "A method of storing data", "A type of algorithm for encryption"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is a symmetric encryption algorithm?",
+      "options": ["AES", "RSA", "ECC", "DSA"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the main disadvantage of symmetric encryption?",
+      "options": ["Key distribution", "Complexity", "Speed", "Scalability"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following encryption algorithms uses a pair of keys (public and private)?",
+      "options": ["RSA", "AES", "Blowfish", "DES"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a hash function used for in cryptography?",
+      "options": ["To create a fixed-size representation of data", "To encrypt data", "To generate a key pair", "To decrypt data"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the primary purpose of digital signatures?",
+      "options": ["To authenticate the origin of data", "To encrypt the data", "To generate a key pair", "To provide non-repudiation"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the main advantage of asymmetric encryption over symmetric encryption?",
+      "options": ["No need for key exchange", "Faster encryption", "More secure", "Lower computational cost"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is a popular hashing algorithm?",
+      "options": ["SHA-256", "RSA", "AES", "DES"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does SSL/TLS stand for in the context of cryptography?",
+      "options": ["Secure Sockets Layer / Transport Layer Security", "Systematic Secured Layer / Total Layer Security", "Secure System Layer / Transport Level Security", "Simple Secure Layer / Time-based Layer Security"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of a public key in public-key cryptography?",
+      "options": ["To encrypt messages", "To decrypt messages", "To generate a secret key", "To sign messages"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the main function of a digital certificate?",
+      "options": ["To verify the identity of the certificate holder", "To encrypt data", "To sign data", "To store keys"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which cryptographic protocol is commonly used for securing web communications?",
+      "options": ["SSL/TLS", "SSH", "IPSec", "PGP"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does AES stand for in the context of cryptography?",
+      "options": ["Advanced Encryption Standard", "Adaptive Encryption Standard", "Advanced Encoding System", "Automated Encryption Service"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the process of converting plaintext into ciphertext called?",
+      "options": ["Encryption", "Decryption", "Hashing", "Encoding"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is NOT a feature of a good cryptographic hash function?",
+      "options": ["It should be reversible", "It should produce a fixed-size output", "It should be collision-resistant", "It should be computationally efficient"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the term 'key exchange' refer to in cryptography?",
+      "options": ["The process of securely sharing encryption keys", "The process of encrypting messages", "The method of generating private keys", "The algorithm used to decrypt data"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following best describes the concept of a 'digital signature'?",
+      "options": ["A unique identifier used for encryption", "A cryptographic mechanism for verifying data integrity and authenticity", "A public-key cryptographic system", "A process for generating encryption keys"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which of the following is a public-key algorithm?",
+      "options": ["RSA", "AES", "DES", "Blowfish"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of a certificate authority (CA) in public key infrastructure (PKI)?",
+      "options": ["To issue and manage digital certificates", "To generate encryption keys", "To encrypt and decrypt messages", "To store public keys"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the process of verifying the authenticity of a public key called?",
+      "options": ["Key validation", "Key exchange", "Public key infrastructure", "Digital certificate verification"],
+      "correct_answer": 3
+    },
+    {
+      "question": "Which of the following encryption algorithms is considered broken due to advances in computing power?",
+      "options": ["DES", "RSA", "AES", "Blowfish"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a nonce in cryptography?",
+      "options": ["A random or unique value used once", "A type of encryption algorithm", "A key used in symmetric encryption", "A hash function"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is true about symmetric encryption algorithms?",
+      "options": ["The same key is used for both encryption and decryption", "It uses a pair of public and private keys", "It is slower than asymmetric encryption", "It is only used for hashing"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which cryptographic technique is used to ensure data integrity?",
+      "options": ["Hashing", "Encryption", "Key exchange", "Digital signatures"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is true about RSA encryption?",
+      "options": ["It is an asymmetric encryption algorithm", "It is a symmetric encryption algorithm", "It uses the same key for both encryption and decryption", "It is faster than AES"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the term 'ciphertext' refer to?",
+      "options": ["The encrypted version of the original message", "The plaintext message", "The decryption key", "The hash value of the message"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which type of attack attempts to guess a key by trying all possible keys?",
+      "options": ["Brute force attack", "Man-in-the-middle attack", "Dictionary attack", "Side-channel attack"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is a cryptographic algorithm used for digital signatures?",
+      "options": ["RSA", "AES", "Blowfish", "DES"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the main purpose of elliptic curve cryptography (ECC)?",
+      "options": ["To provide faster and more efficient encryption", "To replace symmetric encryption algorithms", "To generate hashing algorithms", "To store encryption keys"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the term 'salt' refer to in password hashing?",
+      "options": ["Random data added to the password before hashing", "A key used for encryption", "A type of cipher", "The public key"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is NOT a type of cryptographic attack?",
+      "options": ["Man-in-the-middle attack", "Brute force attack", "Multiplication attack", "Side-channel attack"],
+      "correct_answer": 2
+    },
+    {
+      "question": "Which protocol is commonly used for securing email communication?",
+      "options": ["PGP (Pretty Good Privacy)", "SSL/TLS", "AES", "RSA"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is a widely-used method of encrypting data in transit on the web?",
+      "options": ["SSL/TLS", "IPSec", "PGP", "AES"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a side-channel attack?",
+      "options": ["An attack that uses information leaked from the physical implementation of a cryptosystem", "An attack that guesses passwords", "An attack on hashing algorithms", "An attack that exploits weak encryption keys"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the primary purpose of hashing in cryptography?",
+      "options": ["To generate a fixed-length representation of data", "To encrypt data", "To securely store passwords", "To generate encryption keys"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following encryption algorithms is known for its speed and efficiency?",
+      "options": ["AES", "RSA", "DES", "Blowfish"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following protocols is used to secure data exchanged over the internet?",
+      "options": ["SSL/TLS", "IPSec", "AES", "RSA"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the term for an encryption algorithm that uses a single key for both encryption and decryption?",
+      "options": ["Symmetric encryption", "Asymmetric encryption", "Hashing", "Digital signatures"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the term 'digital certificate' refer to?",
+      "options": ["A cryptographic document used to verify the identity of a user or device", "A password hashing technique", "A public key encryption algorithm", "A form of symmetric encryption"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is an asymmetric encryption algorithm?",
+      "options": ["RSA", "AES", "DES", "Blowfish"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is true about hashing algorithms?",
+      "options": ["They are one-way functions", "They can be used for encryption and decryption", "They produce variable-length outputs", "They require a key for operation"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which cryptographic technique is used for ensuring confidentiality?",
+      "options": ["Encryption", "Hashing", "Digital signatures", "Key exchange"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the primary use of the RSA algorithm?",
+      "options": ["Asymmetric encryption and digital signatures", "Symmetric encryption", "Key exchange", "Hashing"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which type of encryption is used by most modern secure web applications?",
+      "options": ["RSA and AES", "DES and AES", "AES and ECC", "RSA and ECC"],
+      "correct_answer": 0
     }
   ],
+
+
   "CSS": [
     {
       "question": "What does CSS stand for?",
       "options": ["Cascading Style Sheets", "Creative Style Sheets", "Computer Style Sheets", "Colorful Style Sheets"],
       "correct_answer": 0
+    },
+    {
+      "question": "What does CSS stand for?",
+      "options": ["Cascading Style Sheets", "Computer Style Sheets", "Creative Style Sheets", "Cascading Simple Sheets"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which property is used to change the background color of an element?",
+      "options": ["background-color", "color", "bg-color", "background"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is the correct syntax for linking an external CSS file?",
+      "options": ["<link href='style.css'>", "<link rel='stylesheet' type='text/css' href='style.css'>", "<css href='style.css'>", "<style src='style.css'>"],
+      "correct_answer": 1
+    },
+    {
+      "question": "How do you apply a class selector in CSS?",
+      "options": [".classname {}", "#classname {}", "*classname {}", "classname {}"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the z-index property do in CSS?",
+      "options": ["Controls the stacking order of elements", "Sets the font size", "Sets the text color", "Changes the position of elements"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How do you make a list item display horizontally in CSS?",
+      "options": ["list-style: horizontal;", "display: inline;", "display: block;", "list-style-type: inline;"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which of the following CSS properties is used to control the spacing between words in a text?",
+      "options": ["word-spacing", "letter-spacing", "text-spacing", "line-height"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which property is used to change the font of an element in CSS?",
+      "options": ["font-family", "font-style", "font-type", "text-font"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How do you apply a style to the first element of a specific type in CSS?",
+      "options": ["p:first-child {}", "p:first {}", "p:nth-child(1) {}", "p:beginning {}"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is the default value for the 'position' property in CSS?",
+      "options": ["relative", "absolute", "static", "fixed"],
+      "correct_answer": 2
+    },
+    {
+      "question": "Which CSS property is used to change the text color?",
+      "options": ["color", "font-color", "text-color", "background-color"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the correct CSS syntax to center a div element horizontally?",
+      "options": ["div { margin: 0 auto; }", "div { align: center; }", "div { margin-left: auto; margin-right: auto; }", "div { text-align: center; }"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which property is used to control the amount of space between lines of text?",
+      "options": ["line-height", "letter-spacing", "text-indent", "word-spacing"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following values for the 'display' property makes an element behave like an inline element?",
+      "options": ["inline", "block", "inline-block", "flex"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How can you change the color of links in CSS?",
+      "options": ["a:link { color: red; }", "a:visited { color: red; }", "a { color: red; }", "a:hover { color: red; }"],
+      "correct_answer": 2
+    },
+    {
+      "question": "How do you specify a font size in CSS?",
+      "options": ["font-size: 16px;", "font-size: 16pt;", "font-size: 16;", "font-size: 16em;"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the 'display: flex;' property do in CSS?",
+      "options": ["It enables flexbox layout", "It makes the element inline", "It makes the element behave like a block element", "It adds a shadow effect"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following CSS properties is used to hide an element?",
+      "options": ["visibility: hidden;", "display: none;", "visibility: none;", "display: hidden;"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which of the following is the correct syntax for making an element responsive in CSS?",
+      "options": ["@media (max-width: 600px) { }", "@media screen (width: 600px) { }", "@media screen { width: 600px; }", "@media(max-width: 600px) {}"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which CSS property is used to control the width of an element?",
+      "options": ["width", "height", "padding", "margin"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is used to set the transparency level of an element in CSS?",
+      "options": ["opacity", "transparency", "visibility", "background-opacity"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How do you make an image responsive in CSS?",
+      "options": ["img { max-width: 100%; height: auto; }", "img { width: 100%; height: auto; }", "img { display: block; }", "img { width: 100%; height: 100%; }"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which CSS property controls the text size?",
+      "options": ["font-size", "text-size", "font-style", "letter-spacing"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following values for 'position' keeps an element positioned relative to its normal position?",
+      "options": ["relative", "absolute", "fixed", "sticky"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How do you change the background image of an element in CSS?",
+      "options": ["background-image: url('image.jpg');", "background: url('image.jpg');", "background-image: 'image.jpg';", "background: 'image.jpg';"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How do you center a block element vertically and horizontally using flexbox?",
+      "options": ["display: flex; justify-content: center; align-items: center;", "display: block; text-align: center; vertical-align: middle;", "position: absolute; top: 50%; left: 50%;", "display: block; margin: 0 auto;"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which property is used to change the border of an element?",
+      "options": ["border", "border-width", "border-style", "border-color"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How do you add padding to an element in CSS?",
+      "options": ["padding: 10px;", "padding-top: 10px;", "margin: 10px;", "border: 10px;"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following properties is used to set the space between the content and the border of an element?",
+      "options": ["padding", "margin", "border-spacing", "text-indent"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the 'box-sizing: border-box;' property do in CSS?",
+      "options": ["Includes padding and border in the element's total width and height", "Excludes padding and border from the element's total width and height", "Changes the color of the border", "None of the above"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is used to define a CSS class selector?",
+      "options": [".classname {}", "#classname {}", "classname {}", "classname {}"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the ':hover' pseudo-class in CSS?",
+      "options": ["To apply styles when an element is hovered over", "To apply styles to a link", "To select the first child of an element", "To apply styles to active links"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is used to change the font size of an element?",
+      "options": ["font-size", "text-size", "font-style", "font-family"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How do you make an element display as a block in CSS?",
+      "options": ["display: block;", "display: inline;", "display: inline-block;", "display: flex;"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the correct CSS syntax for making a link green when hovered?",
+      "options": ["a:hover { color: green; }", "a:hover { color: green; text-decoration: none; }", "a:hover { background-color: green; }", "a { color: green; }"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following CSS properties is used to add space between elements?",
+      "options": ["margin", "padding", "spacing", "gap"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How do you hide an element in CSS without removing it from the layout?",
+      "options": ["visibility: hidden;", "display: none;", "opacity: 0;", "height: 0;"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the correct syntax for setting the width of a div element to 100% in CSS?",
+      "options": ["div { width: 100%; }", "div { width: 100px; }", "div { width: 100vw; }", "div { width: 100px;}"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the 'flex-direction' property do in flexbox?",
+      "options": ["Defines the direction of the flex container's items", "Defines the alignment of the items", "Specifies the wrapping behavior of flex items", "Defines the gap between flex items"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which property is used to align items vertically in a flex container?",
+      "options": ["align-items", "justify-items", "align-content", "vertical-align"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How do you make the text in a paragraph bold using CSS?",
+      "options": ["font-weight: bold;", "text-weight: bold;", "font-size: bold;", "text-transform: bold;"],
+      "correct_answer": 0
     }
   ],
+
+  
   "Django": [
     {
       "question": "Which language is Django written in?",
       "options": ["Java", "JavaScript", "Python", "PHP"],
       "correct_answer": 2
+    },
+    {
+      "question": "What is Django?",
+      "options": ["A programming language", "A web framework", "A database management system", "A CSS framework"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which language is Django written in?",
+      "options": ["Python", "JavaScript", "Ruby", "PHP"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the default template engine in Django?",
+      "options": ["Jinja", "Mako", "Django Templates", "Mustache"],
+      "correct_answer": 2
+    },
+    {
+      "question": "Which command is used to start a new Django project?",
+      "options": ["django startproject", "django new project", "django createproject", "django initproject"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a Django model?",
+      "options": ["A controller", "A view", "A database schema", "A template"],
+      "correct_answer": 2
+    },
+    {
+      "question": "Which of the following commands creates database migrations in Django?",
+      "options": ["python manage.py migrate", "python manage.py makemigrations", "python manage.py syncdb", "python manage.py dbcreate"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the role of 'views.py' in Django?",
+      "options": ["Define database schema", "Handle HTTP requests", "Define URL patterns", "Define static files"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the default database engine for Django?",
+      "options": ["SQLite", "MySQL", "PostgreSQL", "Oracle"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How do you define a model in Django?",
+      "options": ["By inheriting from Django's 'Model' class", "By defining a class in views.py", "By using the 'django.db.models.Model' class", "By creating a migration file"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is a Django feature that allows developers to create reusable components?",
+      "options": ["Models", "Apps", "Views", "Forms"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which of the following is a method used to display static files in Django?",
+      "options": ["django-admin static", "django.contrib.staticfiles", "django.static", "django-admin serve-static"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the purpose of 'urls.py' in Django?",
+      "options": ["To handle HTTP responses", "To define URL patterns", "To define database models", "To handle form submissions"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which of the following is used to handle user authentication in Django?",
+      "options": ["django.contrib.auth", "django.auth", "django.authentication", "django.contrib.authentication"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is Django's ORM?",
+      "options": ["Object-Relational Mapper", "Object-Resource Manager", "Online Resource Manager", "Object Model Repository"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How do you apply migrations in Django?",
+      "options": ["python manage.py migrate", "python manage.py syncdb", "python manage.py update", "python manage.py dbapply"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is the command to create a Django superuser?",
+      "options": ["python manage.py createsuperuser", "python manage.py admin", "python manage.py superuser", "python manage.py user"],
+      "correct_answer": 0
+    },
+    {
+      "question": "In Django, where are URL patterns defined?",
+      "options": ["urls.py", "models.py", "views.py", "settings.py"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is a Django template tag?",
+      "options": ["{% include %}", "{% block %}", "{% template %}", "{% function %}"],
+      "correct_answer": 1
+    },
+    {
+      "question": "How do you render a template in Django?",
+      "options": ["render(request, 'template.html')", "return render('template.html')", "render('template.html', request)", "render_template('template.html', request)"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is used to store and manage static files in Django?",
+      "options": ["django.contrib.staticfiles", "django.static", "django.files", "django.staticfiles"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the 'reverse' function do in Django?",
+      "options": ["Returns the URL for a given view", "Returns the name of the view", "Reverses the order of views", "Reverses the model"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following Django features is used to handle forms?",
+      "options": ["django.forms", "django.model_forms", "django.forms.models", "django.form"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How do you define a model field that automatically sets the current date and time when an object is created?",
+      "options": ["models.DateTimeField(auto_now_add=True)", "models.DateTimeField()", "models.DateField(auto_now=True)", "models.TimeField(auto_now=True)"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is used to manage Django's database schema?",
+      "options": ["python manage.py migrate", "python manage.py dbupdate", "python manage.py manage", "python manage.py schema"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of Django's 'admin.py'?",
+      "options": ["To configure and manage the Django admin interface", "To define URL patterns", "To define the settings", "To handle database migrations"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What command do you use to create a Django app?",
+      "options": ["django-admin startapp", "django-admin createapp", "python manage.py startapp", "python manage.py createapp"],
+      "correct_answer": 0
+    },
+    {
+      "question": "In Django, which file contains settings for database configurations?",
+      "options": ["settings.py", "urls.py", "views.py", "models.py"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of 'manage.py' in a Django project?",
+      "options": ["To provide commands for interacting with the project", "To define views", "To manage URLs", "To store database models"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following Django features allows you to handle user sessions?",
+      "options": ["django.contrib.sessions", "django.sessions", "django.contrib.auth.sessions", "django.sessions.auth"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is used to access Django's ORM?",
+      "options": ["models.Model", "models.Manager", "models.query", "models.DjangoORM"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a Django view?",
+      "options": ["A function that handles requests and returns responses", "A database schema", "A URL pattern", "A static file"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is used to handle middleware in Django?",
+      "options": ["MIDDLEWARE setting in settings.py", "django.middleware", "middleware.py", "Django Middleware class"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is a valid way to include a URL pattern in Django?",
+      "options": ["url(r'^path/$', view_function)", "urlpatterns = ('^path/$', view_function)", "url('^path/$', view_function)", "url(r'^path/', view_function)"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is used for user authentication in Django?",
+      "options": ["django.contrib.auth", "django.auth", "django.authentication", "django.contrib.authentication"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of Django's 'csrf_token' in templates?",
+      "options": ["To prevent Cross Site Request Forgery attacks", "To handle user authentication", "To manage form submissions", "To manage static files"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What command is used to start a Django server?",
+      "options": ["python manage.py runserver", "django-admin runserver", "python startserver", "python manage.py startserver"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following commands is used to create a Django migration?",
+      "options": ["python manage.py makemigrations", "python manage.py migrate", "python manage.py migratecreate", "python manage.py migrationcreate"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is Django's 'migrations' feature used for?",
+      "options": ["To handle changes to the database schema", "To manage static files", "To create models", "To manage user sessions"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How do you handle file uploads in Django?",
+      "options": ["By using FileField in models", "By using FileInput in templates", "By using FileHandler", "By using FileUpload in views"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is used to add pagination to Django views?",
+      "options": ["django.core.paginator", "django.pagination", "django.core.pagination", "django.views.paginator"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How do you render a JSON response in Django?",
+      "options": ["JsonResponse", "HttpResponse(json)", "response.json()", "json.dump()"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a Django 'middleware'?",
+      "options": ["A component that processes requests before they reach the view", "A type of view", "A database model", "A type of URL pattern"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following Django features is used to allow multiple databases?",
+      "options": ["DATABASES setting in settings.py", "MultipleDatabase class", "django.db.multi", "db_multiple"],
+      "correct_answer": 0
     }
   ],
+
+
   "Docker": [
     {
       "question": "What is Docker primarily used for?",
       "options": ["Virtualization", "Containerization", "Database management", "Frontend development"],
       "correct_answer": 1
+    },
+    {
+      "question": "What is Docker?",
+      "options": ["A cloud service", "A containerization platform", "A programming language", "A web framework"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the purpose of Docker containers?",
+      "options": ["To provide virtual machines", "To package applications and their dependencies", "To manage databases", "To handle user authentication"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which command is used to build a Docker image?",
+      "options": ["docker run", "docker build", "docker create", "docker deploy"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the default Docker network driver?",
+      "options": ["bridge", "host", "overlay", "macvlan"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What file defines the configuration of a Docker container?",
+      "options": ["Dockerfile", "docker-compose.yml", "config.json", "DockerConfig.txt"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which command is used to start a Docker container?",
+      "options": ["docker start", "docker run", "docker create", "docker launch"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which of the following is used to stop a running Docker container?",
+      "options": ["docker stop", "docker halt", "docker end", "docker shutdown"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is Docker Hub?",
+      "options": ["A container orchestration platform", "A public repository for Docker images", "A virtual machine manager", "A web application platform"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is a Docker image?",
+      "options": ["A running instance of a container", "A read-only template used to create containers", "A network configuration", "A Docker volume"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which command is used to list all Docker containers?",
+      "options": ["docker ps", "docker list", "docker containers", "docker show"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the Docker command 'docker pull' do?",
+      "options": ["Pushes a Docker image to a registry", "Removes a Docker image", "Downloads a Docker image from a registry", "Runs a Docker container"],
+      "correct_answer": 2
+    },
+    {
+      "question": "What is Docker Compose used for?",
+      "options": ["Managing multiple containers in a multi-container application", "Creating Docker images", "Orchestrating virtual machines", "Managing Docker networks"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of a Docker volume?",
+      "options": ["To persist data between container restarts", "To package Docker images", "To manage networks", "To handle logs"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following Docker commands is used to remove a container?",
+      "options": ["docker rm", "docker delete", "docker stop", "docker destroy"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is Docker Swarm?",
+      "options": ["A tool for managing and scaling containers", "A web framework", "A version control system", "A container monitoring tool"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is used to share Docker images?",
+      "options": ["Docker Hub", "Docker Registry", "docker.com", "docker images"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which command is used to view detailed information about a Docker image?",
+      "options": ["docker inspect", "docker info", "docker details", "docker image inspect"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which Docker command is used to see running containers?",
+      "options": ["docker ps", "docker run", "docker list", "docker containers"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is a correct Dockerfile instruction?",
+      "options": ["RUN", "MAKE", "CREATE", "BUILD"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following Docker commands is used to log into a Docker registry?",
+      "options": ["docker login", "docker connect", "docker registry login", "docker pull"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How can you remove a Docker image?",
+      "options": ["docker rmi", "docker delete", "docker remove", "docker image rm"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the 'docker exec' command used for?",
+      "options": ["To execute commands in a running container", "To execute a script in a container", "To start a container", "To stop a container"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the 'docker build' command do?",
+      "options": ["Builds a Docker container from an image", "Builds a Docker image from a Dockerfile", "Starts a new Docker container", "Creates a new Docker volume"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is Docker's default networking driver?",
+      "options": ["bridge", "host", "none", "overlay"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the function of a Docker container?",
+      "options": ["To isolate an application and its dependencies", "To act as a virtual machine", "To deploy a network", "To monitor application performance"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the 'docker ps -a' command?",
+      "options": ["To list all containers, including stopped ones", "To list only running containers", "To list only active images", "To list Docker volumes"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which command is used to list all Docker images?",
+      "options": ["docker images", "docker list", "docker show images", "docker image list"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of Docker's 'COPY' instruction in a Dockerfile?",
+      "options": ["To copy files from the host system to the container", "To copy files from the container to the host system", "To copy files within the container", "To copy files from one container to another"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which command is used to stop a running Docker container?",
+      "options": ["docker stop", "docker halt", "docker shutdown", "docker end"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a Docker network used for?",
+      "options": ["To manage communication between containers", "To manage container storage", "To monitor container resources", "To manage container volumes"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which Docker command is used to view logs from a container?",
+      "options": ["docker logs", "docker view", "docker show logs", "docker container logs"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does 'docker-compose' allow you to do?",
+      "options": ["Run multi-container applications", "Manage Docker images", "Monitor Docker containers", "Build Docker images"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a Docker 'tag'?",
+      "options": ["A version identifier for Docker images", "A file used for Docker configurations", "A command to stop containers", "A Docker container name"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following commands removes all stopped containers?",
+      "options": ["docker container prune", "docker remove all", "docker prune containers", "docker container remove all"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the 'docker-compose.yml' file?",
+      "options": ["To define multi-container services", "To build Docker images", "To create Docker volumes", "To store Docker configuration settings"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is Docker's 'overlay' network driver used for?",
+      "options": ["To manage communication across multiple Docker hosts", "To manage networking within a single host", "To connect containers to the host network", "To isolate containers on the same host"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How do you run a Docker container in the background?",
+      "options": ["docker run -d", "docker start -b", "docker run --background", "docker create -d"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which command removes all unused Docker images?",
+      "options": ["docker image prune", "docker image rm all", "docker prune images", "docker clean images"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How do you start a Docker container in interactive mode?",
+      "options": ["docker run -it", "docker start -i", "docker create -it", "docker exec -it"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which command lists all Docker networks?",
+      "options": ["docker network ls", "docker networks", "docker network list", "docker ls networks"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the 'docker exec -it' command do?",
+      "options": ["Runs a command in a running container", "Starts a new container", "Executes a script in the container", "Removes a container"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the 'docker-compose up' command used for?",
+      "options": ["To start multi-container applications", "To build a Docker image", "To list Docker containers", "To stop containers"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the 'docker build -t' command?",
+      "options": ["To build a Docker image and tag it", "To run a Docker container", "To list Docker images", "To remove Docker images"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which Docker command is used to view detailed container logs?",
+      "options": ["docker logs", "docker inspect logs", "docker view logs", "docker container logs"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which file defines the settings for a multi-container Docker application?",
+      "options": ["docker-compose.yml", "Dockerfile", "docker-application.yml", "docker-settings.yml"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is Docker's 'bridge' network driver used for?",
+      "options": ["To connect containers to the host network", "To manage container communication within a single host", "To manage inter-container communication across multiple hosts", "To create isolated containers"],
+      "correct_answer": 1
     }
   ],
+
+
   "Ethical Hacking": [
     {
       "question": "What is another term for Ethical Hacking?",
       "options": ["White hat hacking", "Black hat hacking", "Blue hat hacking", "Green hat hacking"],
       "correct_answer": 0
+    },
+    {
+      "question": "What is ethical hacking?",
+      "options": ["Hacking for personal gain", "Hacking with permission to identify vulnerabilities", "Hacking for malicious purposes", "Hacking to exploit weaknesses"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which of the following is the first step in the ethical hacking process?",
+      "options": ["Reconnaissance", "Exploitation", "Scanning", "Gaining access"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a penetration test?",
+      "options": ["A test to measure system performance", "A test to exploit vulnerabilities in a system", "A test to protect a system", "A test to back up a system"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which of the following tools is commonly used for scanning networks?",
+      "options": ["Nmap", "Wireshark", "Metasploit", "Kali Linux"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which is the primary purpose of ethical hacking?",
+      "options": ["To exploit vulnerabilities", "To identify and fix vulnerabilities", "To cause damage", "To compromise system security"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which of the following is a commonly used tool for vulnerability scanning?",
+      "options": ["Nessus", "Python", "Wireshark", "Apache"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the term 'footprinting' refer to in ethical hacking?",
+      "options": ["Scanning a network for open ports", "Gathering information about a target system", "Exploiting a system", "Breaking into a network"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which of the following is considered an ethical hacking tool for web application testing?",
+      "options": ["Burp Suite", "Metasploit", "Kali Linux", "Wireshark"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the 'payload' in a hacking attack refer to?",
+      "options": ["The malicious code that gets executed", "The target system", "The data being stolen", "The attack vector"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is SQL injection?",
+      "options": ["A form of brute force attack", "An attack that targets a system's web applications via SQL queries", "A form of social engineering", "A denial of service attack"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the purpose of a firewall in network security?",
+      "options": ["To stop malware from spreading", "To prevent unauthorized access to a network", "To detect vulnerabilities", "To provide encryption"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which of the following is a method of bypassing a firewall?",
+      "options": ["Port scanning", "SQL injection", "Cross-site scripting", "Denial of service"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does a VPN (Virtual Private Network) do?",
+      "options": ["Encrypts traffic between two points", "Bypasses firewalls", "Scans a network for vulnerabilities", "Intercepts communication on a network"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the 'Social Engineering' technique in hacking?",
+      "options": ["Using a technical flaw to gain unauthorized access", "Manipulating people into divulging confidential information", "Breaking into networks using brute force", "Exploiting software vulnerabilities"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which of the following is the primary tool for exploiting vulnerabilities in systems?",
+      "options": ["Metasploit", "Wireshark", "Kali Linux", "Nessus"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the term 'buffer overflow' refer to in ethical hacking?",
+      "options": ["Filling the memory buffer of a program with excessive data", "Overloading a network with traffic", "Breaking through the authentication process", "Bypassing a firewall"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the first step in performing a penetration test?",
+      "options": ["Reconnaissance", "Exploitation", "Scanning", "Maintaining access"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is an example of a brute force attack?",
+      "options": ["Guessing passwords by trying many combinations", "Injecting malicious SQL queries into a system", "Exploiting a vulnerability in software", "Sending a lot of requests to a website to crash it"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is the main purpose of a DDoS (Distributed Denial of Service) attack?",
+      "options": ["To steal sensitive information", "To make a network or system unavailable", "To manipulate a user into revealing credentials", "To bypass a firewall"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is an example of a password cracking tool?",
+      "options": ["John the Ripper", "Wireshark", "Metasploit", "Kali Linux"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which type of attack exploits vulnerabilities in the software's logic and behavior?",
+      "options": ["Logical attack", "Phishing", "Man-in-the-middle", "Buffer overflow"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of an intrusion detection system (IDS)?",
+      "options": ["To monitor and detect suspicious activity in a network", "To protect against viruses", "To monitor the health of a system", "To stop unauthorized access"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which tool is used to capture and analyze packets traveling through a network?",
+      "options": ["Wireshark", "Metasploit", "Nmap", "John the Ripper"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is a popular tool for conducting a vulnerability assessment?",
+      "options": ["Nessus", "Metasploit", "Wireshark", "Burp Suite"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the term 'phishing' refer to?",
+      "options": ["Stealing sensitive information through deceptive emails or websites", "Injecting malware into a system", "Scanning for vulnerabilities", "Performing denial of service attacks"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a common type of social engineering attack?",
+      "options": ["Phishing", "SQL Injection", "Man-in-the-middle", "Cross-site scripting"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is an example of a denial of service attack?",
+      "options": ["Flooding a server with traffic to make it unavailable", "Injecting malicious code into a system", "Stealing passwords", "Hacking into a network through open ports"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the main function of a honeypot in security?",
+      "options": ["To attract and deceive attackers", "To block unauthorized users", "To patch system vulnerabilities", "To manage user access control"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which technique is used to exploit a vulnerability in a system’s authentication process?",
+      "options": ["Credential stuffing", "SQL injection", "Buffer overflow", "Phishing"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a rootkit?",
+      "options": ["A type of malware designed to hide the existence of certain processes or programs", "A hacking tool for bypassing authentication", "A program to scan for network vulnerabilities", "A phishing tool"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does an ethical hacker need before performing an authorized penetration test?",
+      "options": ["Written consent from the organization", "Permission from a third party", "Access to the target's login credentials", "A government permit"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is a legal term for hacking with permission?",
+      "options": ["Ethical hacking", "Cracking", "White-hat hacking", "Black-hat hacking"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is Cross-Site Scripting (XSS)?",
+      "options": ["Injecting malicious scripts into web pages", "An attack to exploit vulnerabilities in servers", "Stealing passwords using social engineering", "Flooding a website with traffic"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is used for password hashing?",
+      "options": ["SHA-256", "MD5", "Bcrypt", "All of the above"],
+      "correct_answer": 3
+    },
+    {
+      "question": "What is an SQL injection attack?",
+      "options": ["Exploiting a vulnerability in an SQL database", "Attacking a network using packets", "Performing a social engineering attack", "Injecting a malicious file into a system"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is used to exploit a system’s software vulnerability?",
+      "options": ["Exploit", "Brute force", "DDoS", "Sniffing"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of a vulnerability assessment?",
+      "options": ["To identify and fix security weaknesses", "To monitor network traffic", "To analyze user behavior", "To prevent denial of service attacks"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What type of attack involves sniffing network packets to intercept sensitive information?",
+      "options": ["Man-in-the-middle", "Phishing", "SQL injection", "DDoS"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is 'Whaling' in the context of social engineering?",
+      "options": ["Targeting high-profile individuals or executives", "Sending fake emails to random people", "Injecting malware into email attachments", "Spoofing phone calls"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following best defines 'Zero-Day' vulnerabilities?",
+      "options": ["Vulnerabilities that are exploited before a patch is released", "Vulnerabilities that are patched immediately", "Vulnerabilities discovered during penetration testing", "Vulnerabilities detected by firewalls"],
+      "correct_answer": 0
     }
   ],
+
+
   "GitHub": [
     {
       "question": "What is GitHub used for?",
       "options": ["Web hosting", "Source code management", "Email services", "Cloud storage"],
       "correct_answer": 1
+    },
+    {
+      "question": "What is GitHub primarily used for?",
+      "options": ["Version control", "File storage", "Website hosting", "Bug tracking"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a repository in GitHub?",
+      "options": ["A remote server for hosting code", "A file containing a commit history", "A project folder that contains files and metadata", "A type of user account"],
+      "correct_answer": 2
+    },
+    {
+      "question": "What is the command to clone a repository in Git?",
+      "options": ["git clone", "git pull", "git push", "git fetch"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does a fork do in GitHub?",
+      "options": ["Creates a copy of a repository to make independent changes", "Merges two repositories", "Commits changes to the main branch", "Fetches new changes from the remote repository"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a pull request on GitHub?",
+      "options": ["A request to merge changes from one branch to another", "A request to add a new feature", "A request to clone a repository", "A request to delete a file"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is used to check the status of changes in a local Git repository?",
+      "options": ["git status", "git log", "git commit", "git push"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of a commit in GitHub?",
+      "options": ["To save changes to the local repository", "To send changes to the remote repository", "To create a new branch", "To delete files"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which Git command is used to push changes to a remote repository?",
+      "options": ["git push", "git pull", "git commit", "git clone"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is a GitHub feature that helps track bugs and issues?",
+      "options": ["Issues", "Branches", "Forks", "Pull requests"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a branch in GitHub?",
+      "options": ["A copy of the repository used for feature development", "A submodule of a repository", "A type of file", "A way to delete files"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What command is used to create a new branch in Git?",
+      "options": ["git branch", "git create", "git push", "git pull"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a merge in GitHub?",
+      "options": ["Combining changes from different branches", "Deleting a branch", "Creating a new pull request", "Renaming a file"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the .gitignore file in a GitHub repository?",
+      "options": ["To specify which files should be ignored by Git", "To track changes in the repository", "To merge branches", "To configure repository permissions"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the command 'git fetch' do?",
+      "options": ["Fetches changes from the remote repository without merging", "Pushes changes to the remote repository", "Clones a new repository", "Fetches a list of all branches"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is GitHub Actions?",
+      "options": ["A tool for automating software workflows", "A version control tool", "A repository management tool", "A feature to create private repositories"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the difference between 'git pull' and 'git fetch'?",
+      "options": ["'git pull' updates the local branch, 'git fetch' only downloads changes", "'git fetch' updates the local branch, 'git pull' only downloads changes", "'git pull' deletes files, 'git fetch' adds new branches", "There is no difference"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the command 'git reset' do?",
+      "options": ["Undoes changes and resets the repository to a previous state", "Commits changes", "Pushes changes to the remote repository", "Pulls changes from the remote repository"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a GitHub Gist?",
+      "options": ["A simple way to share code snippets or text", "A private repository", "A tool for version control", "A template for creating repositories"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which GitHub feature allows multiple people to collaborate on a repository?",
+      "options": ["Collaborators", "Forks", "Stars", "Issues"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a GitHub 'star'?",
+      "options": ["A way to bookmark repositories", "A way to fork a repository", "A way to commit changes", "A way to create a new branch"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which command would you use to show the commit history in a Git repository?",
+      "options": ["git log", "git status", "git commit", "git push"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of a pull request in GitHub?",
+      "options": ["To request a review and merge changes from one branch to another", "To push changes to a remote repository", "To clone a repository", "To create a new branch"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the command to delete a local branch in Git?",
+      "options": ["git branch -d", "git remove", "git delete", "git delete branch"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a 'commit hash' in Git?",
+      "options": ["A unique identifier for a commit", "A type of merge", "A Git branch name", "A user’s username in GitHub"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which command do you use to create a new Git repository?",
+      "options": ["git init", "git create", "git clone", "git branch"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the role of the 'main' branch in GitHub?",
+      "options": ["It is the default branch in a repository", "It stores all the commits", "It tracks all remote repositories", "It contains all the pull requests"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a 'merge conflict' in Git?",
+      "options": ["When changes from different branches cannot be merged automatically", "When two users attempt to push the same file", "When a repository is deleted", "When a branch is deleted"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of 'git rebase'?",
+      "options": ["To move or combine a sequence of commits to a new base commit", "To merge branches", "To delete a branch", "To fetch changes from the remote repository"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a 'pull' request?",
+      "options": ["A request to merge changes from a forked repository", "A request to delete a branch", "A request to update a repository", "A request to clone a repository"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the 'git config' command?",
+      "options": ["To configure user settings for Git", "To commit changes", "To merge branches", "To clone a repository"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the 'git commit -m' command do?",
+      "options": ["Creates a commit with a message", "Displays the commit history", "Creates a new branch", "Pushes changes to the remote repository"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which GitHub feature is used to store and share code snippets and configurations?",
+      "options": ["GitHub Gist", "GitHub Pages", "GitHub Actions", "GitHub Issues"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the main difference between a 'fork' and a 'clone' in GitHub?",
+      "options": ["Fork creates a copy of a repository on GitHub, clone copies a repository locally", "Fork is used for merging, clone is used for branching", "Fork creates a new branch, clone copies the remote repository", "There is no difference"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which GitHub feature allows you to automate tasks like continuous integration?",
+      "options": ["GitHub Actions", "GitHub Gist", "GitHub Issues", "GitHub Pages"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a 'commit' in Git?",
+      "options": ["A snapshot of changes made to files in a repository", "A copy of a repository", "A clone of a branch", "A request to merge branches"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the 'git stash' command used for?",
+      "options": ["Temporarily saving changes that are not ready to be committed", "Pushing changes to a remote repository", "Creating a new branch", "Fetching updates from a remote repository"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the default file used to configure repository settings in Git?",
+      "options": [".gitignore", ".gitattributes", ".gitconfig", ".gitmodules"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of a 'git push' command?",
+      "options": ["To upload local repository changes to a remote repository", "To fetch changes from the remote repository", "To commit changes", "To create a new branch"],
+      "correct_answer": 0
     }
   ],
+
+
   "Go": [
     {
       "question": "Which company created the Go programming language?",
       "options": ["Google", "Facebook", "Microsoft", "Apple"],
       "correct_answer": 0
-    }
+    },
+    {
+      "question": "What is Go commonly used for?",
+      "options": ["Web development", "System programming", "Machine learning", "Game development"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the primary feature of Go's concurrency model?",
+      "options": ["Goroutines", "Threads", "Processes", "Jobs"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which keyword is used to declare a variable in Go?",
+      "options": ["var", "let", "define", "set"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How do you declare a constant in Go?",
+      "options": ["const", "constant", "final", "immutable"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which function is used to print output in Go?",
+      "options": ["fmt.Println", "fmt.Print", "print", "echo"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the 'defer' keyword in Go?",
+      "options": ["To delay the execution of a function until the surrounding function returns", "To define a constant", "To declare a variable", "To handle errors"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the default value of an uninitialized variable in Go?",
+      "options": ["0", "null", "undefined", "false"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is the correct way to create a slice in Go?",
+      "options": ["make([]int, 5)", "new([]int)", "[]int{1, 2, 3}", "array[]"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the 'range' keyword do in Go?",
+      "options": ["Iterates over arrays, slices, maps, and channels", "Declares a variable", "Executes a loop", "Handles errors"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What type of system does Go primarily target?",
+      "options": ["High-performance systems", "Web servers", "Mobile applications", "Cloud computing"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is the correct way to declare a function in Go?",
+      "options": ["func functionName()", "def functionName()", "function functionName()", "func functionName[]"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which operator is used to access the fields of a struct in Go?",
+      "options": [".", "->", "&", "::"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How do you handle errors in Go?",
+      "options": ["By checking the second return value from functions", "Using try-catch blocks", "Using the throws keyword", "With a special error object"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which function is used to convert a string to an integer in Go?",
+      "options": ["strconv.Atoi", "string.ToInt", "parseInt", "convert.ToInt"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the 'main' function in Go?",
+      "options": ["The entry point of a Go program", "A function for creating slices", "A function for printing output", "A built-in function for file handling"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a goroutine in Go?",
+      "options": ["A lightweight thread of execution", "A data structure", "A function that runs indefinitely", "A system-level process"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How do you start a goroutine in Go?",
+      "options": ["By prefixing the function call with 'go'", "By using 'goroutine' keyword", "By calling the 'start' function", "By using the 'go' command in the terminal"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a channel in Go?",
+      "options": ["A way for goroutines to communicate", "A collection of values", "A function that runs in the background", "A special type of variable"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How do you receive a value from a channel in Go?",
+      "options": ["<- channel", "channel <-", "channel.receive()", "channel.get()"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How can you create a map in Go?",
+      "options": ["make(map[string]int)", "new(map[string]int)", "map[string]int{}", "map.create()"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a struct in Go?",
+      "options": ["A collection of fields", "A type of function", "A type of array", "A data storage method"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How do you define a new type in Go?",
+      "options": ["type TypeName int", "new TypeName = int", "TypeName := int", "type TypeName := int"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the 'go run' command do?",
+      "options": ["Compiles and runs a Go program", "Runs a Go program without compilation", "Compiles the Go code", "Starts a Go server"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which package is used to handle input and output in Go?",
+      "options": ["fmt", "io", "input", "out"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the 'defer' keyword used for in Go?",
+      "options": ["To delay the execution of a function until the surrounding function returns", "To declare a new variable", "To stop the execution of a function", "To handle errors"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which package is commonly used for string manipulation in Go?",
+      "options": ["strings", "text", "strutil", "textutils"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How do you create a new slice in Go?",
+      "options": ["make([]int, 5)", "[]int{1, 2, 3}", "new(slice int)", "[]int[]"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How do you concatenate two strings in Go?",
+      "options": ["Using the + operator", "Using the concat function", "Using append()", "Using join()"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is a Go interface?",
+      "options": ["A set of methods that a type must implement", "A user-defined function", "A collection of data", "A data storage type"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the 'panic' function do in Go?",
+      "options": ["It stops the program and generates an error", "It logs the error to a file", "It returns an error", "It skips the error"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which Go function is used to handle errors?",
+      "options": ["Error()", "panic()", "recover()", "fmt.Errorf"],
+      "correct_answer": 3
+    },
+    {
+      "question": "How do you terminate a goroutine in Go?",
+      "options": ["By returning from the goroutine", "By using the 'exit' command", "By using the 'stop' function", "By using the 'close' command"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How does Go handle memory management?",
+      "options": ["Automatic garbage collection", "Manual memory management", "Memory pools", "Reference counting"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How can you ensure thread safety when working with maps in Go?",
+      "options": ["By using sync.Mutex or sync.RWMutex", "By using channels", "By using goroutines", "By locking the map"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which keyword is used to import a package in Go?",
+      "options": ["import", "use", "include", "require"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which statement is true about Go's garbage collection?",
+      "options": ["It automatically reclaims unused memory", "It needs to be manually invoked", "It does not affect performance", "It is not supported in Go"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of these is used to handle concurrency in Go?",
+      "options": ["goroutines and channels", "threads", "tasks", "coroutines"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the function signature for a Go method?",
+      "options": ["func methodName() type", "func methodName(type){}", "method methodName()", "func methodName{}"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the 'select' statement do in Go?",
+      "options": ["Allows a goroutine to wait on multiple communication operations", "Merges channels", "Creates new channels", "Executes a function based on conditions"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the correct syntax for a 'for' loop in Go?",
+      "options": ["for i := 0; i < 10; i++ {}", "for i in range(10):", "for i = 0 to 10 {}", "for i: 0 until 10"],
+      "correct_answer": 0
+    },
+    {
+      "question": "How do you create a package in Go?",
+      "options": ["By creating a new folder with a Go file inside it", "By using the 'go create' command", "By using the 'package' keyword", "By creating a repository on GitHub"],
+      "correct_answer": 0
+    }    
   ],
-  "Google Cloud Platform": [
+
+
+  "GCP": [
     {
       "question": "What does GCP stand for?",
       "options": ["Google Cloud Platform", "Global Cloud Platform", "Google Compute Platform", "Global Compute Platform"],
       "correct_answer": 0
-    }
+    },
+    
   ],
+
+
   "Hadoop": [
     {
       "question": "What is Hadoop used for?",
@@ -104,6 +3678,8 @@
       "correct_answer": 0
     }
   ],
+
+
   "HTML": [
     {
       "question": "What does HTML stand for?",
@@ -111,6 +3687,8 @@
       "correct_answer": 0
     }
   ],
+
+  
   "Java": [
     {
       "question": "Which data type is used to create a variable that should store text in Java?",
@@ -118,6 +3696,8 @@
       "correct_answer": 1
     }
   ],
+
+
   "JavaScript": [
     {
       "question": "What is JavaScript?",
@@ -125,6 +3705,8 @@
       "correct_answer": 0
     }
   ],
+
+
   "Kubernetes": [
     {
       "question": "What is Kubernetes used for?",
@@ -132,6 +3714,8 @@
       "correct_answer": 0
     }
   ],
+
+
   "Linux": [
     {
       "question": "Who is the creator of Linux?",
@@ -139,6 +3723,8 @@
       "correct_answer": 0
     }
   ],
+
+
   "macOS": [
     {
       "question": "Which company developed macOS?",
@@ -146,6 +3732,8 @@
       "correct_answer": 2
     }
   ],
+
+
   "Microsoft Azure": [
     {
       "question": "What is Azure primarily used for?",
@@ -153,6 +3741,8 @@
       "correct_answer": 0
     }
   ],
+
+
   "MongoDB": [
     {
       "question": "What type of database is MongoDB?",
@@ -160,6 +3750,8 @@
       "correct_answer": 1
     }
   ],
+
+
   "Network Security": [
     {
       "question": "What does a firewall do?",
@@ -167,6 +3759,8 @@
       "correct_answer": 0
     }
   ],
+
+
   "Node.js": [
     {
       "question": "What is Node.js primarily used for?",
@@ -174,6 +3768,8 @@
       "correct_answer": 0
     }
   ],
+
+
   "PostgreSQL": [
     {
       "question": "What type of database is PostgreSQL?",
@@ -181,6 +3777,8 @@
       "correct_answer": 0
     }
   ],
+
+
   "Python": [
     {
       "question": "What is the correct syntax to output 'Hello World' in Python?",
@@ -188,6 +3786,8 @@
       "correct_answer": 0
     }
   ],
+
+
   "React": [
     {
       "question": "What is a component in React?",
@@ -195,13 +3795,17 @@
       "correct_answer": 3
     }
   ],
-  "Ruby on Rails": [
+
+
+  "Ruby": [
     {
       "question": "Which language is Ruby on Rails written in?",
       "options": ["Java", "JavaScript", "Ruby", "Python"],
       "correct_answer": 2
     }
   ],
+
+
   "SQL": [
     {
       "question": "What does SQL stand for?",
@@ -209,6 +3813,8 @@
       "correct_answer": 0
     }
   ],
+
+
   "Tableau": [
     {
       "question": "What is Tableau primarily used for?",
@@ -216,6 +3822,8 @@
       "correct_answer": 0
     }
   ],
+
+
   "Terraform": [
     {
       "question": "What is Terraform used for?",
@@ -223,6 +3831,8 @@
       "correct_answer": 0
     }
   ],
+
+
   "TensorFlow": [
     {
       "question": "What is TensorFlow primarily used for?",
@@ -230,6 +3840,8 @@
       "correct_answer": 0
     }
   ],
+
+
   "Vue.js": [
     {
       "question": "What is Vue.js primarily used for?",
@@ -237,6 +3849,8 @@
       "correct_answer": 0
     }
   ],
+
+
   "Windows": [
     {
       "question": "Which company developed Windows?",
