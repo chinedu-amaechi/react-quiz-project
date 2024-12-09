@@ -40,8 +40,8 @@ export default function Quiz({ category }) {
 
   async function handleGoHome() {
     try {
-      const response = await axios.put("/api/users", user);
-      console.log(response.data);
+      // const response = await axios.put("/api/users", user);
+      // console.log(response.data);
       router.push("/");
     } catch (error) {
       console.error(error);

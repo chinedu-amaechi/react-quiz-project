@@ -33,6 +33,8 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   position: relative;
   display: inline-block; /* Adjust to the content width */
+  max-width: 600px;
+  width: 100%;
 }
 
 .categories {
@@ -58,8 +60,8 @@
 }
 
 .category img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   object-fit: cover;
 }
 

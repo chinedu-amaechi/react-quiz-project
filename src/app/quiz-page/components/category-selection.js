@@ -17,7 +17,7 @@ const categories = {
     { name: "Node.js", image: "/nodejs.png" },
     { name: "ASP.NET", image: "/aspnet.png" },
     { name: "Django", image: "/django.png" },
-    { name: "Ruby on Rails", image: "/rubyonrails.png" }
+    { name: "Ruby", image: "/rubyonrails.png" }
   ],
   "Programming Languages": [
     { name: "Python", image: "/python.png" },
@@ -34,7 +34,7 @@ const categories = {
   "Cloud Computing": [
     { name: "AWS", image: "/aws.png" },
     { name: "Microsoft Azure", image: "/azure.png" },
-    { name: "Google Cloud Platform", image: "/gcp.png" }
+    { name: "GCP", image: "/gcp.png" }
   ],
   "DevOps and Tools": [
     { name: "Docker", image: "/docker.png" },
@@ -69,6 +69,7 @@ export default function CategorySelection({ onSelectCategory }) {
   };
 
   return (
+
     <div className="category-selection">
       <h2>Welcome, {user.name}! Select a Quiz Category:</h2>
       {Object.entries(categories).map(([categoryName, categoryItems], index) => (
