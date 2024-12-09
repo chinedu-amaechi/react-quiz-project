@@ -6,300 +6,246 @@
       "correct_answer": 0
     },
     {
-      "question": "What is the name of the official integrated development environment (IDE) for Android app development?",
-      "options": ["Eclipse", "NetBeans", "Android Studio", "Visual Studio"],
-      "correct_answer": 2
-    },
-    {
-      "question": "What is Android?",
-      "options": ["A web browser", "A mobile operating system", "A database management system", "A programming language"],
-      "correct_answer": 1
-    },
-    {
-      "question": "Who is the founder of Android?",
-      "options": ["Andy Rubin", "Larry Page", "Sundar Pichai", "Tim Cook"],
+      "question": "Who developed the Android operating system?",
+      "options": ["Google", "Microsoft", "Apple", "IBM"],
       "correct_answer": 0
     },
     {
-      "question": "Which company developed Android?",
-      "options": ["Microsoft", "Apple", "Google", "IBM"],
-      "correct_answer": 2
-    },
-    {
-      "question": "What is the Android Virtual Device (AVD)?",
-      "options": [
-        "An Android-powered smartphone",
-        "An emulator to test Android apps",
-        "A command-line tool for debugging",
-        "A library for user interface design"
-      ],
-      "correct_answer": 1
-    },
-    {
-      "question": "Which programming language is primarily used for Android app development?",
-      "options": ["Python", "Java", "C#", "Ruby"],
-      "correct_answer": 1
-    },
-    {
-      "question": "What is the Gradle build system used for in Android?",
-      "options": ["Designing layouts", "Managing app dependencies and builds", "Testing apps", "Debugging"],
-      "correct_answer": 1
-    },
-    {
-      "question": "What is the purpose of an Intent in Android?",
-      "options": [
-        "To pass data between activities",
-        "To store data in the database",
-        "To render graphics on the screen",
-        "To define app permissions"
-      ],
+      "question": "What programming language is primarily used for Android app development?",
+      "options": ["Java", "C#", "Swift", "Python"],
       "correct_answer": 0
     },
     {
-      "question": "What is an activity in Android?",
-      "options": [
-        "A background process",
-        "A single screen with a user interface",
-        "A type of service",
-        "A system-level event"
-      ],
-      "correct_answer": 1
-    },
-    {
-      "question": "What is the role of the AndroidManifest.xml file?",
-      "options": [
-        "To declare app components and permissions",
-        "To define app layouts",
-        "To manage app assets",
-        "To configure app themes"
-      ],
+      "question": "Which Android version is known as 'Lollipop'?",
+      "options": ["Android 5.0", "Android 6.0", "Android 4.4", "Android 7.0"],
       "correct_answer": 0
     },
     {
-      "question": "Which tool is used for debugging Android applications?",
-      "options": ["Logcat", "Gradle", "ProGuard", "DexCompiler"],
+      "question": "Which Android version is known as 'KitKat'?",
+      "options": ["Android 4.4", "Android 5.0", "Android 6.0", "Android 7.0"],
       "correct_answer": 0
     },
     {
-      "question": "What is the purpose of the RecyclerView in Android?",
-      "options": [
-        "To manage background tasks",
-        "To display a large set of data efficiently",
-        "To debug app crashes",
-        "To interact with databases"
-      ],
-      "correct_answer": 1
-    },
-    {
-      "question": "What is the use of ContentProvider in Android?",
-      "options": [
-        "To store user data",
-        "To manage app permissions",
-        "To share data between apps",
-        "To display images"
-      ],
-      "correct_answer": 2
-    },
-    {
-      "question": "Which component is used to perform background tasks in Android?",
-      "options": ["Activity", "Service", "Intent", "Fragment"],
-      "correct_answer": 1
-    },
-    {
-      "question": "What does ANR stand for in Android?",
-      "options": ["App Not Running", "Android Not Responding", "Application Not Responding", "Application New Release"],
-      "correct_answer": 2
-    },
-    {
-      "question": "Which class is used to create a toast message in Android?",
-      "options": ["Toast", "AlertDialog", "Notification", "Snackbar"],
+      "question": "Which is the main component of an Android application?",
+      "options": ["Activity", "Fragment", "Service", "Content Provider"],
       "correct_answer": 0
     },
     {
-      "question": "What is a fragment in Android?",
-      "options": [
-        "A lightweight activity",
-        "A reusable component within an activity",
-        "A background thread",
-        "A debugging tool"
-      ],
-      "correct_answer": 1
-    },
-    {
-      "question": "What is the purpose of the SharedPreferences class?",
-      "options": [
-        "To handle user input",
-        "To save lightweight key-value pairs",
-        "To display a list of data",
-        "To debug app crashes"
-      ],
-      "correct_answer": 1
-    },
-    {
-      "question": "Which layout is best for creating a complex, responsive UI in Android?",
-      "options": ["LinearLayout", "RelativeLayout", "ConstraintLayout", "FrameLayout"],
-      "correct_answer": 2
-    },
-    {
-      "question": "What does the AsyncTask class do in Android?",
-      "options": [
-        "Handles file storage",
-        "Performs background operations and updates UI",
-        "Manages app permissions",
-        "Displays a list of data"
-      ],
-      "correct_answer": 1
-    },
-    {
-      "question": "Which Android API is used to interact with SQLite databases?",
-      "options": ["Room", "Retrofit", "Volley", "ContentProvider"],
+      "question": "What is the purpose of the AndroidManifest.xml file?",
+      "options": ["To declare app components", "To define app layout", "To store app resources", "To define app logic"],
       "correct_answer": 0
     },
     {
-      "question": "What is the purpose of the ProGuard tool in Android?",
-      "options": [
-        "To obfuscate and shrink code",
-        "To debug applications",
-        "To design UI layouts",
-        "To test database queries"
-      ],
+      "question": "What is an Intent in Android?",
+      "options": ["A messaging object", "A view component", "A database structure", "A user interface element"],
       "correct_answer": 0
     },
     {
-      "question": "Which Android version was the first to support ART (Android Runtime)?",
-      "options": ["KitKat", "Jelly Bean", "Lollipop", "Marshmallow"],
+      "question": "What is the Android SDK?",
+      "options": ["Software Development Kit", "System Design Kit", "Software Development Knowledge", "System Design Knowledge"],
       "correct_answer": 0
     },
     {
-      "question": "Which class is used to handle location updates in Android?",
-      "options": ["LocationManager", "MapView", "GeoCoder", "LocationProvider"],
+      "question": "What is the use of the Android Emulator?",
+      "options": ["Simulate Android device", "Test apps on the cloud", "Store user data", "Debug code"],
       "correct_answer": 0
     },
     {
-      "question": "What does the term 'material design' refer to in Android?",
-      "options": [
-        "A UI design language",
-        "A database optimization method",
-        "A debugging tool",
-        "An API for network calls"
-      ],
+      "question": "What is a Service in Android?",
+      "options": ["A component that runs in the background", "A type of UI component", "A database service", "A content provider"],
       "correct_answer": 0
     },
     {
-      "question": "What is the main advantage of using ViewModel in Android?",
-      "options": [
-        "Improves app design",
-        "Survives configuration changes",
-        "Handles background tasks",
-        "Manages navigation"
-      ],
-      "correct_answer": 1
-    },
-    {
-      "question": "Which lifecycle method is called when an activity is first created?",
-      "options": ["onStart()", "onResume()", "onCreate()", "onPause()"],
-      "correct_answer": 2
-    },
-    {
-      "question": "Which class is used for image loading in Android?",
-      "options": ["Glide", "Toast", "Snackbar", "AsyncTask"],
+      "question": "Which of the following is an example of a View in Android?",
+      "options": ["TextView", "Activity", "Intent", "Service"],
       "correct_answer": 0
     },
     {
-      "question": "What does APK stand for?",
-      "options": ["Android Package", "Android Programming Kit", "Android Process Kit", "App Processing Kernel"],
+      "question": "What is the function of an Android 'BroadcastReceiver'?",
+      "options": ["To receive and handle broadcast messages", "To display user interface", "To connect to a database", "To run background services"],
       "correct_answer": 0
     },
     {
-      "question": "Which library is used for dependency injection in Android?",
-      "options": ["Dagger", "Room", "Retrofit", "Volley"],
+      "question": "Which of the following Android versions is the latest as of 2024?",
+      "options": ["Android 13", "Android 12", "Android 11", "Android 10"],
       "correct_answer": 0
     },
     {
-      "question": "What is Jetpack in Android?",
-      "options": [
-        "A set of libraries for app development",
-        "A network debugging tool",
-        "A database management system",
-        "An API for map integration"
-      ],
+      "question": "What does the 'dp' unit represent in Android development?",
+      "options": ["Density-independent pixels", "Display pixels", "Dynamic pixels", "Device pixels"],
       "correct_answer": 0
     },
     {
-      "question": "What is LiveData in Android?",
-      "options": [
-        "A class for live-streaming apps",
-        "An observable data holder class",
-        "A library for animations",
-        "A tool for debugging"
-      ],
-      "correct_answer": 1
-    },
-    {
-      "question": "What does Retrofit library in Android do?",
-      "options": [
-        "Handles HTTP requests",
-        "Loads images",
-        "Provides navigation features",
-        "Manages databases"
-      ],
+      "question": "What is the purpose of Android's RecyclerView?",
+      "options": ["To display large sets of data", "To handle notifications", "To store data in local database", "To run background tasks"],
       "correct_answer": 0
     },
     {
-      "question": "Which layout allows stacking of components on top of each other?",
-      "options": ["LinearLayout", "FrameLayout", "RelativeLayout", "ConstraintLayout"],
-      "correct_answer": 1
-    },
-    {
-      "question": "What is the use of Snackbar in Android?",
-      "options": [
-        "To show brief messages at the bottom of the screen",
-        "To debug apps",
-        "To create user authentication",
-        "To display large data sets"
-      ],
+      "question": "What is the primary use of Gradle in Android development?",
+      "options": ["Build automation", "UI design", "Cloud storage", "App deployment"],
       "correct_answer": 0
     },
     {
-      "question": "Which file is used to define app permissions?",
-      "options": ["MainActivity.java", "AndroidManifest.xml", "build.gradle", "res/values/strings.xml"],
-      "correct_answer": 1
-    },
-    {
-      "question": "What does FCM stand for in Android?",
-      "options": [
-        "Firebase Cloud Messaging",
-        "Firebase Code Management",
-        "File Cache Module",
-        "File Control Manager"
-      ],
+      "question": "Which Android component is responsible for storing data locally?",
+      "options": ["SQLite", "BroadcastReceiver", "Service", "Activity"],
       "correct_answer": 0
     },
     {
-      "question": "What is the purpose of the Data Binding Library?",
-      "options": [
-        "To bind UI components to data sources",
-        "To handle HTTP requests",
-        "To manage app themes",
-        "To debug UI elements"
-      ],
+      "question": "Which method is used to create a new instance of an Activity?",
+      "options": ["startActivity()", "setContentView()", "onCreate()", "createActivity()"],
       "correct_answer": 0
     },
     {
-      "question": "Which format is used to design layouts in Android?",
-      "options": ["JSON", "XML", "YAML", "HTML"],
-      "correct_answer": 1
+      "question": "What is an AsyncTask in Android?",
+      "options": ["To perform background tasks", "To handle UI events", "To manage network connections", "To handle user input"],
+      "correct_answer": 0
     },
     {
-      "question": "What is the purpose of the ConstraintLayout in Android?",
-      "options": [
-        "To design complex layouts with constraints",
-        "To create animations",
-        "To manage databases",
-        "To store user preferences"
-      ],
+      "question": "What is the function of the 'onCreate()' method in Android?",
+      "options": ["Initialize components", "Update UI", "Handle input events", "Connect to a database"],
       "correct_answer": 0
-    } 
+    },
+    {
+      "question": "Which component of Android is used for managing application resources?",
+      "options": ["Resources folder", "Manifest file", "Activity", "Intent"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which Android component allows communication between apps?",
+      "options": ["ContentProvider", "Service", "BroadcastReceiver", "Activity"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the Android 'onPause()' method do?",
+      "options": ["Pauses the Activity", "Destroys the Activity", "Starts the Activity", "Resumes the Activity"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of Android's 'SharedPreferences'?",
+      "options": ["To store small amounts of data", "To manage large databases", "To connect to a server", "To handle background tasks"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which file extension is used for Android application packages?",
+      "options": [".apk", ".exe", ".app", ".ipa"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which layout type is most commonly used for designing Android app UIs?",
+      "options": ["LinearLayout", "GridLayout", "RelativeLayout", "FrameLayout"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of the Android Virtual Device (AVD)?",
+      "options": ["To simulate Android devices", "To deploy apps on real devices", "To test APIs", "To manage app resources"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which Android API level corresponds to Android 9.0 (Pie)?",
+      "options": ["API level 28", "API level 29", "API level 27", "API level 26"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is the primary tool for Android app development?",
+      "options": ["Android Studio", "Xcode", "Visual Studio", "Eclipse"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the Android NDK used for?",
+      "options": ["Native development", "Network connectivity", "UI design", "App testing"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which Android version introduced 'Material Design'?",
+      "options": ["Android 5.0", "Android 4.4", "Android 6.0", "Android 7.0"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does 'ANR' stand for in Android?",
+      "options": ["Application Not Responding", "Android Network Router", "Active Network Resource", "Android Notification Response"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does Android's 'Manifest' file declare?",
+      "options": ["App components and permissions", "App resources", "User interface", "User input settings"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following can be used for debugging Android apps?",
+      "options": ["Android Debug Bridge (ADB)", "Android Emulator", "Visual Studio", "Eclipse"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which permission is required to access the internet in an Android app?",
+      "options": ["INTERNET", "ACCESS_NETWORK_STATE", "WRITE_EXTERNAL_STORAGE", "READ_EXTERNAL_STORAGE"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the 'RecyclerView' used for?",
+      "options": ["Displaying large data sets", "Creating UI components", "Managing background tasks", "Handling user input"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the primary function of Android's 'ContentResolver'?",
+      "options": ["Interacting with shared data", "Managing user interface components", "Handling background tasks", "Managing network requests"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does Android's 'onResume()' method do?",
+      "options": ["Resumes the Activity", "Pauses the Activity", "Starts the Activity", "Stops the Activity"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of Android's 'AlarmManager'?",
+      "options": ["Schedule tasks", "Handle background processes", "Control network requests", "Manage user input"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which Android component is used to run background tasks?",
+      "options": ["Service", "ContentProvider", "BroadcastReceiver", "Activity"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the main purpose of Android's 'Firebase'?",
+      "options": ["Cloud services for apps", "Local storage", "Network management", "UI design"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of Android's 'ConstraintLayout'?",
+      "options": ["Flexible layout design", "Handling background services", "Network connectivity", "User input management"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which version of Android introduced multi-window support?",
+      "options": ["Android 7.0", "Android 8.0", "Android 6.0", "Android 9.0"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which Android class allows access to a device's storage?",
+      "options": ["ContentResolver", "FileInputStream", "SharedPreferences", "SQLiteDatabase"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the primary function of Android's 'SQLite'?",
+      "options": ["Store and manage local data", "Manage network requests", "Handle background tasks", "Design user interface"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is Android's primary tool for creating and testing mobile apps?",
+      "options": ["Android Studio", "Eclipse", "Visual Studio", "Xcode"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which method is used to launch a new activity in Android?",
+      "options": ["startActivity()", "startNewActivity()", "launchActivity()", "openActivity()"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the 'onStop()' method in Android do?",
+      "options": ["Stops the Activity", "Pauses the Activity", "Starts the Activity", "Resumes the Activity"],
+      "correct_answer": 0
+    }    
+
   ],
 
 
@@ -6512,7 +6458,7 @@
     },
     {
       "question": "What is the command to list all databases in PostgreSQL?",
-      "options": ["\l", "SHOW DATABASES", "LIST DATABASES", "SELECT DATABASES"],
+      "options": ["\\l", "SHOW DATABASES", "LIST DATABASES", "SELECT DATABASES"],
       "correct_answer": 0
     },
     {
@@ -7250,11 +7196,6 @@
     {
       "question": "How do you define a block in Ruby?",
       "options": ["do...end", "block{} ", "block (){}", "block []{}"],
-      "correct_answer": 0
-    },
-    {
-      "question": "What is the output of 'puts "Hello".reverse' in Ruby?",
-      "options": ["olleH", "Hello", "Error", "None of the above"],
       "correct_answer": 0
     },
     {
