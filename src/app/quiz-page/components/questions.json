@@ -8651,6 +8651,240 @@
       "options": ["Microsoft", "Apple", "Google", "IBM"],
       "correct_answer": 0
     },
-    
+    {
+      "question": "Who is the founder of Microsoft?",
+      "options": ["Bill Gates", "Steve Jobs", "Mark Zuckerberg", "Larry Page"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the primary purpose of Microsoft Office?",
+      "options": ["Productivity suite", "Operating system", "Web browser", "Cloud storage"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is not a product of Microsoft?",
+      "options": ["Windows", "Excel", "Android", "Azure"],
+      "correct_answer": 2
+    },
+    {
+      "question": "What is Microsoft Azure?",
+      "options": ["Cloud computing platform", "Operating system", "Office suite", "Web browser"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What programming language is used for .NET development?",
+      "options": ["C#", "Java", "Python", "Ruby"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the latest version of Windows as of 2024?",
+      "options": ["Windows 10", "Windows 8", "Windows 11", "Windows 7"],
+      "correct_answer": 2
+    },
+    {
+      "question": "Which of the following is a cloud storage service offered by Microsoft?",
+      "options": ["OneDrive", "Google Drive", "Dropbox", "Box"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does Power BI do?",
+      "options": ["Business analytics", "Office automation", "Database management", "Cloud hosting"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the primary use of Visual Studio?",
+      "options": ["Integrated development environment (IDE)", "Database management system", "Spreadsheet application", "Cloud storage platform"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is an open-source Microsoft project?",
+      "options": ["Visual Studio Code", "Microsoft Word", "Outlook", "OneDrive"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of Microsoft Teams?",
+      "options": ["Collaboration and communication platform", "Database management", "Project management tool", "Email client"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which Microsoft product is a source control management tool?",
+      "options": ["GitHub", "Azure DevOps", "Visual Studio Code", "SharePoint"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is Windows Server used for?",
+      "options": ["Server operating system", "Office productivity suite", "Web browser", "Cloud storage"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is an example of a Microsoft database product?",
+      "options": ["SQL Server", "Oracle Database", "MySQL", "MongoDB"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is Power Automate used for?",
+      "options": ["Automating workflows", "Database management", "Cloud hosting", "Business analytics"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which Microsoft product is known for managing large scale IT infrastructure?",
+      "options": ["System Center", "SQL Server", "Azure", "Microsoft Teams"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the Microsoft Store?",
+      "options": ["Digital distribution platform", "Office suite", "Social media platform", "Cloud storage service"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is not a feature of Windows 11?",
+      "options": ["Start Menu centered", "Virtual desktops", "Windows Media Player", "Touch-optimized interface"],
+      "correct_answer": 2
+    },
+    {
+      "question": "What is the Microsoft Edge browser built on?",
+      "options": ["Chromium", "WebKit", "Firefox", "Trident"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of Windows PowerShell?",
+      "options": ["Command-line shell and scripting language", "Web browser", "Database management", "Cloud computing"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which Microsoft tool is used for creating and managing virtual machines?",
+      "options": ["Hyper-V", "Azure DevOps", "Visual Studio", "Windows Defender"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which Microsoft service is primarily focused on machine learning and AI?",
+      "options": ["Azure Machine Learning", "Power BI", "Azure DevOps", "Cortana"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is a Microsoft business software suite?",
+      "options": ["Office 365", "Windows 10", "Edge", "Azure"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is Microsoft Dynamics 365?",
+      "options": ["Cloud-based enterprise resource planning (ERP)", "Office suite", "Cloud storage", "Operating system"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does Microsoft SharePoint allow users to do?",
+      "options": ["Collaboration and document management", "Email management", "Web hosting", "Cloud storage"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is Microsoft’s primary video conferencing tool?",
+      "options": ["Teams", "Skype", "Outlook", "OneNote"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the name of Microsoft's search engine?",
+      "options": ["Bing", "Google", "Yahoo", "DuckDuckGo"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is used to create cloud-based virtual machines on Microsoft Azure?",
+      "options": ["Azure Virtual Machines", "AWS EC2", "Google Cloud Compute", "IBM Cloud Virtual Servers"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of these is a feature of Azure Active Directory?",
+      "options": ["Identity and access management", "Cloud storage", "Office suite", "Web development"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does Microsoft Outlook do?",
+      "options": ["Email management", "Database management", "Cloud hosting", "Document collaboration"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which Microsoft product is used for task and project management?",
+      "options": ["Microsoft Project", "Microsoft Excel", "Power BI", "Azure DevOps"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which programming language is supported in Azure Functions?",
+      "options": ["C#", "JavaScript", "Python", "All of the above"],
+      "correct_answer": 3
+    },
+    {
+      "question": "Which Microsoft service provides content delivery network (CDN) functionality?",
+      "options": ["Azure CDN", "Google Cloud CDN", "AWS CloudFront", "IBM Cloud CDN"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which Microsoft product is designed for database management and analysis?",
+      "options": ["SQL Server", "Excel", "Access", "OneNote"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the Azure Blob Storage service do?",
+      "options": ["Store large amounts of unstructured data", "Run virtual machines", "Manage virtual desktops", "Handle networking tasks"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following services is provided by Microsoft Azure for container orchestration?",
+      "options": ["Azure Kubernetes Service", "AWS ECS", "Google Kubernetes Engine", "IBM Cloud Kubernetes"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the main purpose of Microsoft Teams?",
+      "options": ["Collaboration and communication", "Task management", "Web hosting", "Virtual machine management"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which programming language is primarily associated with .NET framework development?",
+      "options": ["C#", "Java", "Python", "Ruby"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is Microsoft’s main product for managing enterprise resource planning (ERP)?",
+      "options": ["Dynamics 365", "Windows Server", "Azure", "Power BI"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which Microsoft product allows you to create and edit vector graphics?",
+      "options": ["Visio", "Paint", "Word", "PowerPoint"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the purpose of Microsoft Intune?",
+      "options": ["Mobile device management", "Cloud storage", "Web hosting", "Data backup"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following is a key feature of Microsoft Windows 10?",
+      "options": ["Cortana", "Acrylic design", "DirectX 12", "All of the above"],
+      "correct_answer": 3
+    },
+    {
+      "question": "Which Microsoft product is used for document and collaboration management?",
+      "options": ["SharePoint", "Excel", "OneDrive", "Outlook"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which service allows for seamless integration of on-premises and cloud directories in Azure?",
+      "options": ["Azure AD Connect", "Microsoft Teams", "Power Automate", "Azure Functions"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What does the Microsoft HoloLens device do?",
+      "options": ["Mixed reality experiences", "Virtual reality experiences", "Mobile computing", "Wearable fitness tracking"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which tool is used for automating the deployment of applications in Azure?",
+      "options": ["Azure DevOps", "Azure Functions", "Microsoft PowerShell", "Microsoft Flow"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which of the following Microsoft products is used for customer relationship management (CRM)?",
+      "options": ["Dynamics 365", "Outlook", "Excel", "OneDrive"],
+      "correct_answer": 0
+    }    
   ]
 }
