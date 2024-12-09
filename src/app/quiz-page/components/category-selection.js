@@ -69,6 +69,7 @@ export default function CategorySelection({ onSelectCategory }) {
   };
 
   return (
+
     <div className="category-selection">
       <h2>Welcome, {user.name}! Select a Quiz Category:</h2>
       {Object.entries(categories).map(([categoryName, categoryItems], index) => (
