@@ -1,36 +1,73 @@
+/* Base styling for the form container */
 .register-form {
   width: 100%;
-  max-width: 500px;
+  max-width: 400px; /* Slightly smaller max width for a cleaner look */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 15px; /* Increased gap for better spacing */
+  margin: 0 auto; /* Centering the form */
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background color for contrast */
+  border-radius: 8px; /* Soft border radius for rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
+/* Styling for each input group */
 .label-input {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: start;
-  gap: 4px;
+  align-items: flex-start; /* Align labels to the left */
+  gap: 8px; /* Increased gap for clarity between label and input */
 }
 
+/* Styling for the labels (removed bold font) */
 .label-input label {
-  font-size: 0.95rem;
-  font-weight: 550;
+  font-size: 1rem;
+  font-weight: normal; /* Removed bold font */
+  color: #333; /* Dark color for better readability */
+  align-self: flex-start; /* Align label to the left of the container */
 }
 
+/* Styling for the inputs (removed bold font) */
 .label-input input {
   width: 100%;
-  padding: 2px 15px;
-  background-color: #ffffff;
-  border: none;
-  font-size: 1.05rem;
-  font-weight: 450;
-  border-radius: 10px;
+  padding: 12px 15px;
+  background-color: #fff;
+  border: 1px solid #ccc; /* Light border to separate input from background */
+  font-size: 1rem;
+  font-weight: normal; /* Removed bold font */
+  border-radius: 6px; /* Slightly rounded corners */
+  transition: border-color 0.3s ease; /* Smooth transition for focus effect */
 }
 
 .label-input input:focus {
-  outline-color: #2196f3;
+  outline: none; /* Removing the default focus outline */
+  border-color: #2196f3; /* Blue border on focus */
+  box-shadow: 0 0 5px rgba(33, 150, 243, 0.5); /* Subtle blue glow */
+}
+
+/* Button styling */
+.btn {
+  width: 100%;
+  padding: 12px 0;
+  background-color: #2196f3;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: normal; /* Removed bold font */
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1976d2; /* Darker blue on hover */
+}
+
+/* Add a light hover effect for the input fields */
+.label-input input:hover {
+  border-color: #2196f3; /* Light blue border on hover */
 }

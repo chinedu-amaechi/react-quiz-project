@@ -62,7 +62,7 @@ export default function RegisterForm({ onSubmitFunc }) {
           }
         />
       </div>
-      <button className="btn">Ready</button>
+      <button className="btn">Start</button>
     </form>
   );
 }
