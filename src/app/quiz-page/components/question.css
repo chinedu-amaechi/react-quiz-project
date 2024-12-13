@@ -1,38 +1,93 @@
+/* Container for the question */
 .question {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 30px; /* Increased gap for better spacing */
+  padding: 20px;
+  background-color: #ffffff; /* White background for clarity */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
 }
 
+/* Container for options */
 .options {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 15px; /* Increased gap for better visual separation */
+  width: 100%;
 }
 
+/* Individual option styling */
 .option {
   width: 100%;
-  padding: 10px;
+  padding: 15px 20px;
   cursor: pointer;
   background-color: #2e2e2e;
   color: #f4f4f9;
-  font-size: 1.1rem;
-  border-radius: 25px;
+  font-size: 1.2rem; /* Slightly increased font size for readability */
+  border-radius: 30px;
+  text-align: center;
+  font-weight: 300;
+  transition: background-color 0.3s, transform 0.3s ease; /* Added transition for smooth hover effect */
+  border: 1px solid transparent;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
 }
 
+.option:hover {
+  background-color: #3e3e3e; /* Darker background on hover */
+  transform: translateY(-3px); /* Slight lift on hover */
+}
+
+.option:active {
+  background-color: #333333; /* Active state background */
+  transform: translateY(1px); /* Slight downward effect when clicked */
+}
+
+/* Styling for correct and wrong answers */
 .correct {
-  background-color: #4caf50;
+  background-color: #4caf50; /* Green for correct answers */
 }
 
 .wrong {
-  background-color: #ff5722;
+  background-color: #ff5722; /* Red for wrong answers */
+}
+
+/* Answer summary styling */
+.answer-summary {
+  margin-top: 20px;
+  text-align: center;
 }
 
 .answer-summary span {
-  color: #4caf50;
-  font-weight: 550;
+  color: #4caf50; /* Green color for correct answers */
+  font-weight: 600;
+  font-size: 1.1rem; /* Slightly larger font size */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .question {
+    padding: 15px;
+  }
+
+  .option {
+    font-size: 1rem; /* Reduce font size on smaller screens */
+    padding: 12px 15px; /* Adjust padding */
+  }
+
+  .answer-summary span {
+    font-size: 1rem; /* Adjust font size for answer summary */
+  }
+
+  .options {
+    gap: 10px; /* Adjust gap between options */
+  }
+
 }
